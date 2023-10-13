@@ -82,6 +82,66 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique+",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -382,66 +442,6 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
             "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
             "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
             "flds": [
@@ -625,6 +625,32 @@
         {
             "__type__": "Note",
             "fields": [
+                "Qu'est ce que le \"Courant\" ?",
+                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
+            ],
+            "guid": "h~BBc?{5Pk",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que la \"Tension\" ?",
+                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
+            ],
+            "guid": "l>bda<CDpC",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "Formule lois d'ohm",
                 "u(t) = Ri(t)<br>&nbsp;&nbsp;<img src=\"paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg\">"
             ],
@@ -749,32 +775,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Qu'est ce que le \"Courant\" ?",
-                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
-            ],
-            "guid": "h~BBc?{5Pk",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que la \"Tension\" ?",
-                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
-            ],
-            "guid": "l>bda<CDpC",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
                 "i1+i3+i4=i2+i5"
             ],
@@ -889,6 +889,16 @@
                 "i1+i3+i4 = i2+i5&nbsp;<img src=\"Capture6.PNG\">"
             ],
             "guid": "rzC7F30!I<",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Test1",
+                "HéHéBOIIIII"
+            ],
+            "guid": "e/l2kW:n4A",
             "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
             "tags": []
         }
