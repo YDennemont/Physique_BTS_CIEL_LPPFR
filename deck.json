@@ -625,6 +625,32 @@
         {
             "__type__": "Note",
             "fields": [
+                "Qu'est ce que le \"Courant\" ?",
+                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
+            ],
+            "guid": "h~BBc?{5Pk",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que la \"Tension\" ?",
+                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
+            ],
+            "guid": "l>bda<CDpC",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "Formule lois d'ohm",
                 "u(t) = Ri(t)<br>&nbsp;&nbsp;<img src=\"paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg\">"
             ],
@@ -743,32 +769,6 @@
                 "DEURVEILLER",
                 "electricity",
                 "résistance",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que le \"Courant\" ?",
-                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
-            ],
-            "guid": "h~BBc?{5Pk",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que la \"Tension\" ?",
-                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
-            ],
-            "guid": "l>bda<CDpC",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
                 "électricité"
             ]
         },
@@ -895,10 +895,17 @@
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
                 "Test conflit",
                 "truc"
             ],
             "guid": "Q_~FE]NbT5",
+=======
+                "Test1",
+                "HéHéBOIIIII"
+            ],
+            "guid": "e/l2kW:n4A",
+>>>>>>> fcf4e4e072bada37d8432316b44f493972788539
             "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
             "tags": []
         }
