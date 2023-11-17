@@ -68,6 +68,7 @@
         "paste-071a9751c587704dc5c0bc0fbf09ec26f5696a88.jpg",
         "paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg",
         "paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg",
+        "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg",
         "paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg",
@@ -113,7 +114,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++++",
+            "name": "Basique++++++-bb3b7",
             "originalStockKind": 1,
             "req": [
                 [
@@ -173,7 +174,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++++++++",
+            "name": "Basique++++++++++-d39da",
             "originalStockKind": 1,
             "req": [
                 [
@@ -233,7 +234,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++++++",
+            "name": "Basique+++++++-45c4c",
             "originalStockKind": 1,
             "req": [
                 [
@@ -293,7 +294,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++",
+            "name": "Basique+++-45c4c",
             "originalStockKind": 1,
             "req": [
                 [
@@ -353,7 +354,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++++",
+            "name": "Basique+++++-45c4c",
             "originalStockKind": 1,
             "req": [
                 [
@@ -413,7 +414,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+",
+            "name": "Basique+-baa87",
             "originalStockKind": 1,
             "req": [
                 [
@@ -473,7 +474,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++++++",
+            "name": "Basique++++++++-baa87",
             "originalStockKind": 1,
             "req": [
                 [
@@ -533,7 +534,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++++++++",
+            "name": "Basique+++++++++-baa87",
             "originalStockKind": 1,
             "req": [
                 [
@@ -593,7 +594,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++",
+            "name": "Basique++++-004ed",
             "originalStockKind": 1,
             "req": [
                 [
@@ -619,35 +620,70 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique (saisissez la réponse)",
+            "originalStockKind": 3,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{Recto}}\n\n<hr id=answer>\n\n{{type:Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}\n\n{{type:Verso}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que le \"Courant\" ?",
-                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
-            ],
-            "guid": "h~BBc?{5Pk",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que la \"Tension\" ?",
-                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
-            ],
-            "guid": "l>bda<CDpC",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
         {
             "__type__": "Note",
             "fields": [
@@ -775,6 +811,32 @@
         {
             "__type__": "Note",
             "fields": [
+                "Qu'est ce que le \"Courant\" ?",
+                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
+            ],
+            "guid": "h~BBc?{5Pk",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que la \"Tension\" ?",
+                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
+            ],
+            "guid": "l>bda<CDpC",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
                 "i1+i3+i4=i2+i5"
             ],
@@ -895,19 +957,26 @@
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-                "Test conflit",
-                "truc"
+                "Quel est la formule de la valeur efficace ?",
+                "Amplitude / racine carré de 2"
             ],
-            "guid": "Q_~FE]NbT5",
-=======
-                "Test1",
-                "HéHéBOIIIII"
-            ],
-            "guid": "e/l2kW:n4A",
->>>>>>> fcf4e4e072bada37d8432316b44f493972788539
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "guid": "J[nN2A)_]K",
+            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule de la valeur efficace pour un sinus ?",
+                "<img src=\"paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg\">"
+            ],
+            "guid": "u0Cix/A~w{",
+            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "tags": [
+                "Sinus",
+                "Théo::DQ",
+                "valeur::efficace"
+            ]
         }
     ],
     "reviewLimit": null,
