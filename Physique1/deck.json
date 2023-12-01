@@ -1,15 +1,17 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "9df229e7-696d-11ee-b82a-00d861748303",
-    "deck_config_uuid": "9df229e8-696d-11ee-82ed-00d861748303",
+    "crowdanki_uuid": "26433e30-9013-11ee-a556-50ebf647a705",
+    "deck_config_uuid": "26433e31-9013-11ee-9f51-50ebf647a705",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "9df229e8-696d-11ee-82ed-00d861748303",
+            "crowdanki_uuid": "26433e31-9013-11ee-9f51-50ebf647a705",
+            "desiredRetention": 0.9,
             "dyn": false,
+            "fsrsWeights": [],
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -42,6 +44,7 @@
             "newPerDayMinimum": 0,
             "newSortOrder": 0,
             "replayq": true,
+            "rescheduleFsrsCards": false,
             "rev": {
                 "bury": false,
                 "ease4": 1.3,
@@ -51,6 +54,8 @@
                 "perDay": 200
             },
             "reviewOrder": 0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
             "timer": 0
         }
     ],
@@ -58,31 +63,14 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [
-        "Capture-37b5478f9b05dbaf897ab35c05814f947ee33880.PNG",
-        "Capture.PNG",
-        "Capture1-0564d3bf3b5ed01c6d355d2c6ead6b8e9557cfe0.PNG",
-        "Capture2.PNG",
-        "Capture6.PNG",
-        "loi des noueds.PNG",
-        "paste-071a9751c587704dc5c0bc0fbf09ec26f5696a88.jpg",
-        "paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg",
-        "paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg",
-        "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
-        "paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg",
-        "paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg",
-        "paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg",
-        "paste-ba1623689ed719e19d828b42ff8328f3f7ed0c76.jpg",
-        "paste-c01b5a247d7c5c4c44d1953f393d5e4ebdd1a753.jpg",
-        "resistance fil.PNG"
-    ],
+    "media_files": [],
     "name": "Physique1",
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "crowdanki_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
                 {
@@ -90,30 +78,36 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": 5283494728612144059,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": -7803264801179849414,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+",
+            "name": "Basique",
             "originalStockKind": 1,
             "req": [
                 [
@@ -133,486 +127,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique++++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250d2-696d-11ee-9803-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique++++++++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250de-696d-11ee-8a65-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+++++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250e1-696d-11ee-95b8-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250e7-696d-11ee-9501-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
-            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Gadugi",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Okaso Okaso",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique++++++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df277ce-696d-11ee-b522-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+++++++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique++++",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
+                    "id": 8389447247112259745,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -625,312 +140,104 @@
         {
             "__type__": "Note",
             "fields": [
-                "Qu'est ce que le \"Courant\" ?",
-                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
+                "Donner la formule de l'amplification en tension",
+                "Av = Vs / Ve"
             ],
-            "guid": "h~BBc?{5Pk",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "guid": "s%N[JVGP-^",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "tags": [
-                "Laborde",
-                "électricité"
+                "1STS",
+                "Amplification_en_tension",
+                "Chapitre_Amplication",
+                "IR",
+                "Marel",
+                "Physique"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Qu'est ce que la \"Tension\" ?",
-                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
+                "Donner la formule du gain en tension",
+                "Gv = 20 log (Av)"
             ],
-            "guid": "l>bda<CDpC",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "guid": "wb?cPcRNUp",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "tags": [
-                "Laborde",
-                "électricité"
+                "1STS",
+                "Chapitre_Amplication",
+                "Gain_en_tension",
+                "IR",
+                "Marel",
+                "Physique"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Formule lois d'ohm",
-                "u(t) = Ri(t)<br>&nbsp;&nbsp;<img src=\"paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg\">"
+                "Donner la formule de l'amplification en courant",
+                "Ai = Is / Ie"
             ],
-            "guid": "k`peSy:TM+",
-            "note_model_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
+            "guid": "xAC;9&Qr(<",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "électricité"
+                "1STS",
+                "Amplification_en_courant",
+                "Chapitre_Amplication",
+                "IR",
+                "Marel",
+                "Physique"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Loi d'ohm",
-                "U = RI"
+                "Donner la formule du gain en courant",
+                "Gi = 20 log (Ai)"
             ],
-            "guid": "g09K@Y7m0z",
-            "note_model_uuid": "9df250d2-696d-11ee-9803-00d861748303",
+            "guid": "K*]3ucDW@e",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "tags": [
-                "Théo::De::queiroz",
-                "électricité"
+                "1STS",
+                "Chapitre_Amplication",
+                "Gain_en_courant",
+                "IR",
+                "Marel",
+                "Physique"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Loi des noeuds",
-                "la somme des courants entrant dans un noeud est égale à la somme des courants sortant"
+                "Donner la formule de l'amplication en puissance",
+                "Ap = Ps / Pe"
             ],
-            "guid": "c(@8K[Gid7",
-            "note_model_uuid": "9df250d2-696d-11ee-9803-00d861748303",
+            "guid": "rckI?8>a0R",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "tags": [
-                "Théo::De::queiroz",
-                "électricité"
+                "1STS",
+                "Amplification_en_puissance",
+                "Chapitre_Amplication",
+                "IR",
+                "Marel",
+                "Physique"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Formule du pont diviseur de tension",
-                "<img src=\"paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg\"><br>V2 = R2 / R1 + R2 * V0"
+                "Donner la formule du gain en puissance",
+                "Gp = 10 log (Ap)"
             ],
-            "guid": "m(G/_i|b|D",
-            "note_model_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
+            "guid": "d]LN0WQrJO",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
             "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "électricité"
+                "1STS",
+                "Chapitre_Amplication",
+                "Gain_en_puissance",
+                "IR",
+                "Marel",
+                "Physique"
             ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule du pont diviseur de courant",
-                "<img src=\"paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg\"><br>i2 = R1 / R1 + R2 * i0"
-            ],
-            "guid": "j88oQ5GZ!-",
-            "note_model_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
-            "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Résistances équivalentes en séries: Quel sera le calcul à effectuer pour obtenir Req si on remplace les résistances par une seul ?&nbsp;<img src=\"Capture-37b5478f9b05dbaf897ab35c05814f947ee33880.PNG\">",
-                "<img src=\"paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg\">"
-            ],
-            "guid": "iGL;4f>rhg",
-            "note_model_uuid": "9df250de-696d-11ee-8a65-00d861748303",
-            "tags": [
-                "eléctricité",
-                "résistance",
-                "Thenor"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "\" Quelle est la différence entre un<span style=\"color: rgb(170, 0, 0);\"> </span><span style=\"color: rgb(255, 255, 255);\"><b>courant continu</b></span> (CC) et un <span style=\"color: rgb(255, 255, 255);\"><b>courant alternatif</b></span> (CA) ? \"",
-                "(CC) : Le flux des électrons s'écoule toujours dans <b>le même sens</b>.<br><br>(CA) : Les électrons circulent&nbsp;de&nbsp;façon&nbsp;<b>alternative</b>&nbsp;dans les <b>deux sens</b> du circuit<br><br>"
-            ],
-            "guid": "n&v*M+{lY{",
-            "note_model_uuid": "9df250e1-696d-11ee-95b8-00d861748303",
-            "tags": [
-                "ARMOUËT",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule d'une résistance en série",
-                "<img src=\"paste-ba1623689ed719e19d828b42ff8328f3f7ed0c76.jpg\"><br>Req = R1 + R2 + R3"
-            ],
-            "guid": "cS}sc2<TxH",
-            "note_model_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
-            "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Calculer la résistance électrique d'un fil",
-                "R = ρ * L / S<br><img src=\"resistance fil.PNG\" width=\"411\">"
-            ],
-            "guid": "KCg_MHa1Wl",
-            "note_model_uuid": "9df250e7-696d-11ee-9501-00d861748303",
-            "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "résistance",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
-                "i1+i3+i4=i2+i5"
-            ],
-            "guid": "i>k,013~-A",
-            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
-            "tags": [
-                "electricity",
-                "Hassan",
-                "loi-électrique",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Résistances équivalentes en parallèles: Quel sera le calcul à effectuer pour obtenir Req si on remplace les<br>résistances par une seul ?&nbsp;<img src=\"paste-071a9751c587704dc5c0bc0fbf09ec26f5696a88.jpg\" style=\"float: right;\">",
-                "<img src=\"paste-c01b5a247d7c5c4c44d1953f393d5e4ebdd1a753.jpg\">"
-            ],
-            "guid": "H!EoZNPL<7",
-            "note_model_uuid": "9df250de-696d-11ee-8a65-00d861748303",
-            "tags": [
-                "eléctricité",
-                "résistance",
-                "Thenor"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule de résistances en parallèle",
-                "Req = 1 / (1/R1 + 1/R2 + 1/R3)<br><img src=\"paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg\">"
-            ],
-            "guid": "r7xh8z$g;a",
-            "note_model_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
-            "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "parallèle",
-                "résistance",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule de deux résistances en parallèle",
-                "Req = R1 * R2 / (R1 / R2)<br><img src=\"paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg\">"
-            ],
-            "guid": "Ac%{PyzJW8",
-            "note_model_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
-            "tags": [
-                "DEURVEILLER",
-                "electricity",
-                "parallèle",
-                "résistance",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Formule Additivité des tensions",
-                "U<sub>AB</sub> +U<sub>BC</sub> = U<sub>AC</sub>"
-            ],
-            "guid": "jQ[@Kheoh9",
-            "note_model_uuid": "9df277ce-696d-11ee-b522-00d861748303",
-            "tags": [
-                "marel",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner le pont diviseur de tension",
-                "v2 = R2/R1+R2xv0<img src=\"Capture1-0564d3bf3b5ed01c6d355d2c6ead6b8e9557cfe0.PNG\">"
-            ],
-            "guid": "G|?Lqxwipp",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "physique;électricité;electricity;résistance;bargoin"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la loi des mailles",
-                "UAB+UBC 􀀀UDC +UDA = 0<img src=\"Capture.PNG\">"
-            ],
-            "guid": "JQ>b#X+A+F",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "physique;électricité;electricity;résistance;corre"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner le pont diviseur de courant",
-                "i2 =R1/R1+R2xi0<img src=\"Capture2.PNG\">"
-            ],
-            "guid": "BdRq`8PG#k",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "physique;électricité;electricity;résistance;corre"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la loi des noeuds",
-                "i1+i3+i4 = i2+i5&nbsp;<img src=\"Capture6.PNG\">"
-            ],
-            "guid": "rzC7F30!I<",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Test1",
-                "HéHéBOIIIII"
-            ],
-            "guid": "e/l2kW:n4A",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la Vitesse de la lumière (L'arrondie)",
-                "299 792,458 km/s sois 300 000 km/s en arrondie"
-            ],
-            "guid": "He@DjeN7UX",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est le spcetre visible de la lumière",
-                "Elle est situées entre 380 à 780 nm (nm : nanomètre)"
-            ],
-            "guid": "|SNHf9$p@",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est le therme pour expliquer le défault de non linéaritée ?",
-                "<b><span style=\"font-weight: 400;\">le</span><span style=\"font-weight: 400;\"> taux de distorsion harmonique</span></b>"
-            ],
-            "guid": "s,6jE!854G",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
         }
     ],
     "reviewLimit": null,
