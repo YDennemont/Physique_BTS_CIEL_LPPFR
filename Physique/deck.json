@@ -1,17 +1,15 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "26433e30-9013-11ee-a556-50ebf647a705",
-    "deck_config_uuid": "26433e31-9013-11ee-9f51-50ebf647a705",
+    "crowdanki_uuid": "760c8e97-9014-11ee-b207-f36ddcbb14ba",
+    "deck_config_uuid": "760c8e98-9014-11ee-8659-f36ddcbb14ba",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
             "buryInterdayLearning": false,
-            "crowdanki_uuid": "26433e31-9013-11ee-9f51-50ebf647a705",
-            "desiredRetention": 0.9,
+            "crowdanki_uuid": "760c8e98-9014-11ee-8659-f36ddcbb14ba",
             "dyn": false,
-            "fsrsWeights": [],
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -44,7 +42,6 @@
             "newPerDayMinimum": 0,
             "newSortOrder": 0,
             "replayq": true,
-            "rescheduleFsrsCards": false,
             "rev": {
                 "bury": false,
                 "ease4": 1.3,
@@ -54,8 +51,6 @@
                 "perDay": 200
             },
             "reviewOrder": 0,
-            "sm2Retention": 0.9,
-            "stopTimerOnAnswer": false,
             "timer": 0
         }
     ],
@@ -63,14 +58,17 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "Capture2.PNG",
+        "Capture6.PNG"
+    ],
     "name": "Physique",
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "crowdanki_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
                 {
@@ -78,30 +76,24 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
-                    "id": 5283494728612144059,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
-                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false,
-                    "tag": null
+                    "sticky": false
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
-                    "id": -7803264801179849414,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
-                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false,
-                    "tag": null
+                    "sticky": false
                 }
             ],
             "latexPost": "\\end{document}",
@@ -127,7 +119,6 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "id": 8389447247112259745,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -140,103 +131,27 @@
         {
             "__type__": "Note",
             "fields": [
-                "Donner la formule de l'amplification en tension",
-                "Av = Vs / Ve"
+                "Donner le pont diviseur de courant",
+                "i2 =R1/R1+R2xi0<br><br><img src=\"Capture2.PNG\">"
             ],
-            "guid": "s%N[JVGP-^",
-            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "guid": "uPYd`LP^EM",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "tags": [
-                "1STS",
-                "Amplification_en_tension",
-                "Chapitre_Amplication",
-                "IR",
-                "Marel",
-                "Physique"
+                "loi_electriques",
+                "physique"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Donner la formule du gain en tension",
-                "Gv = 20 log (Av)"
+                "Donner la loi des noeuds",
+                "<img src=\"Capture6.PNG\">"
             ],
-            "guid": "wb?cPcRNUp",
-            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "guid": "BEpWw`eWK=",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "tags": [
-                "1STS",
-                "Chapitre_Amplication",
-                "Gain_en_tension",
-                "IR",
-                "Marel",
-                "Physique"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule de l'amplification en courant",
-                "Ai = Is / Ie"
-            ],
-            "guid": "xAC;9&Qr(<",
-            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
-            "tags": [
-                "1STS",
-                "Amplification_en_courant",
-                "Chapitre_Amplication",
-                "IR",
-                "Marel",
-                "Physique"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule du gain en courant",
-                "Gi = 20 log (Ai)"
-            ],
-            "guid": "K*]3ucDW@e",
-            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
-            "tags": [
-                "1STS",
-                "Chapitre_Amplication",
-                "Gain_en_courant",
-                "IR",
-                "Marel",
-                "Physique"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule de l'amplication en puissance",
-                "Ap = Ps / Pe"
-            ],
-            "guid": "rckI?8>a0R",
-            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
-            "tags": [
-                "1STS",
-                "Amplification_en_puissance",
-                "Chapitre_Amplication",
-                "IR",
-                "Marel",
-                "Physique"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule du gain en puissance",
-                "Gp = 10 log (Ap)"
-            ],
-            "guid": "d]LN0WQrJO",
-            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
-            "tags": [
-                "1STS",
-                "Chapitre_Amplication",
-                "Gain_en_puissance",
-                "IR",
-                "Marel",
-                "Physique"
+                "loi_electriques",
+                "physique"
             ]
         }
     ],
