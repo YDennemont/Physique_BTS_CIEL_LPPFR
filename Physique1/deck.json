@@ -68,8 +68,6 @@
         "paste-071a9751c587704dc5c0bc0fbf09ec26f5696a88.jpg",
         "paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg",
         "paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg",
-        "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
-        "paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg",
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg",
         "paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg",
@@ -82,6 +80,66 @@
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique+",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
@@ -115,7 +173,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++++-bb3b7",
+            "name": "Basique++++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -175,7 +233,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++++++++-d39da",
+            "name": "Basique++++++++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -235,7 +293,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++++++-45c4c",
+            "name": "Basique+++++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -295,7 +353,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++-45c4c",
+            "name": "Basique+++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -355,7 +413,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++++-45c4c",
+            "name": "Basique+++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -384,67 +442,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+-baa87",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
             "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
             "flds": [
                 {
@@ -475,7 +473,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique",
+            "name": "Basique++++++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -535,7 +533,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique+++++++++-baa87",
+            "name": "Basique+++++++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -595,7 +593,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++-004ed",
+            "name": "Basique++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -621,70 +619,35 @@
                 }
             ],
             "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique (saisissez la réponse)",
-            "originalStockKind": 3,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0,
-                        1
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{Recto}}\n\n<hr id=answer>\n\n{{type:Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}\n\n{{type:Verso}}"
-                }
-            ],
-            "type": 0
         }
     ],
     "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que le \"Courant\" ?",
+                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
+            ],
+            "guid": "h~BBc?{5Pk",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que la \"Tension\" ?",
+                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
+            ],
+            "guid": "l>bda<CDpC",
+            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "tags": [
+                "Laborde",
+                "électricité"
+            ]
+        },
         {
             "__type__": "Note",
             "fields": [
@@ -812,37 +775,11 @@
         {
             "__type__": "Note",
             "fields": [
-                "Qu'est ce que le \"Courant\" ?",
-                "- **Courant (Current)** : Le courant, mesuré en ampères (A), représente le déplacement réel des charges électriques (comme les électrons) à travers un conducteur, créant ainsi un flux de charges électriques."
-            ],
-            "guid": "h~BBc?{5Pk",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que la \"Tension\" ?",
-                "- **Tension (Voltage)** : La tension, mesurée en volts (V), est la force ou la différence de potentiel électrique qui pousse les charges électriques à se déplacer dans un circuit. Elle est similaire à la pression dans un système hydraulique."
-            ],
-            "guid": "l>bda<CDpC",
-            "note_model_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "tags": [
-                "Laborde",
-                "électricité"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
                 "i1+i3+i4=i2+i5"
             ],
             "guid": "i>k,013~-A",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
             "tags": [
                 "electricity",
                 "Hassan",
@@ -958,91 +895,42 @@
         {
             "__type__": "Note",
             "fields": [
-                "Quel est la formule de la valeur efficace ?",
-                "Amplitude / racine carré de 2"
+                "Test1",
+                "HéHéBOIIIII"
             ],
-            "guid": "J[nN2A)_]K",
-            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "guid": "e/l2kW:n4A",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "Quelle est la formule de la valeur efficace pour un sinus ?",
-                "<img src=\"paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg\">"
+                "Quelle est la Vitesse de la lumière (L'arrondie)",
+                "299 792,458 km/s sois 300 000 km/s en arrondie"
             ],
-            "guid": "u0Cix/A~w{",
-            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
-            "tags": [
-                "Sinus",
-                "Théo::DQ",
-                "valeur::efficace"
-            ]
+            "guid": "He@DjeN7UX",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "Quellle formule utiliser la valeur moyenne d'un signal ?",
-                "&lt;x&gt; = Xmax + Xmin/2"
+                "Quelle est le spcetre visible de la lumière",
+                "Elle est situées entre 380 à 780 nm (nm : nanomètre)"
             ],
-            "guid": "jL$OA~8rQ|",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "signal"
-            ]
+            "guid": "|SNHf9$p@",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "Quelle est la formule pour trouver la valeur efficace d'une tension ou d'un courant ?",
-                "<img src=\"paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg\">"
+                "Quelle est le therme pour expliquer le défault de non linéaritée ?",
+                "<b><span style=\"font-weight: 400;\">le</span><span style=\"font-weight: 400;\"> taux de distorsion harmonique</span></b>"
             ],
-            "guid": "B{RG+OOgWU",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "signal"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que l'incertitude de type A ?",
-                "&nbsp;L'incertitude de Type A est&nbsp; calculée à partir d'une série de mesures&nbsp; de la meme grandeurs physique (effectuées dans les mêmes conditions)."
-            ],
-            "guid": "s|B!}>Mlib",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que l'incertitude de type B ?",
-                "L'incertitude de type B permet de calculer une mesure unique et elle doit etre réévalués à chaque fois qu'un paramètre change."
-            ],
-            "guid": "uWP?xk)bXH",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la formule de la Tolérance du type A ?",
-                "a/<span style=\"background-color: rgb(255, 255, 255);\">√3</span>"
-            ],
-            "guid": "nu)5~#mc0v",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-            ]
+            "guid": "s,6jE!854G",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
         }
     ],
     "reviewLimit": null,
