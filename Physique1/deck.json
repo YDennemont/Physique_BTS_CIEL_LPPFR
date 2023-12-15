@@ -931,6 +931,58 @@
             "guid": "s,6jE!854G",
             "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "definition de ALI",
+                "Alimentation Linéaire Intégrée&nbsp;"
+            ],
+            "guid": "M=G9/h!A_3",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "bts1",
+                "eléctricité",
+                "Laborde",
+                "physique",
+                "Rudolph"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer la bande passante",
+                "Gmax -3dB"
+            ],
+            "guid": "AP5(7CnH3#",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "ampl",
+                "bts1",
+                "Laborde",
+                "physique",
+                "Rudolph"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un synthé fait quoi aux sinus pour faire le bruit d'un instrument",
+                "<b><span style=\"font-weight: 400;\">Le synthé permet de moduler la fréquence du fondamentale qui est dans ce cas la la note de musique et ensuite on va pouvoir faire en sorte de faire un x2 pour les harmonique et les harmoniques vont permettre de faire le timbre de l'instrument</span></b>"
+            ],
+            "guid": "cb?I|9qaQ_",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "bts1",
+                "fourrier",
+                "Laborde",
+                "physique",
+                "Rudolph",
+                "synthé"
+            ]
         }
     ],
     "reviewLimit": null,
