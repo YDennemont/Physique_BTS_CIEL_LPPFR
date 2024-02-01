@@ -9,7 +9,9 @@
             "autoplay": true,
             "buryInterdayLearning": false,
             "crowdanki_uuid": "9df229e8-696d-11ee-82ed-00d861748303",
+            "desiredRetention": 0.9,
             "dyn": false,
+            "fsrsWeights": [],
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -42,6 +44,7 @@
             "newPerDayMinimum": 0,
             "newSortOrder": 0,
             "replayq": true,
+            "rescheduleFsrsCards": false,
             "rev": {
                 "bury": false,
                 "ease4": 1.3,
@@ -51,6 +54,8 @@
                 "perDay": 200
             },
             "reviewOrder": 0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
             "timer": 0
         }
     ],
@@ -64,19 +69,27 @@
         "Capture1-0564d3bf3b5ed01c6d355d2c6ead6b8e9557cfe0.PNG",
         "Capture2.PNG",
         "Capture6.PNG",
+        "PontDiviseur.png",
+        "bandePassante.png",
+        "gain en tension.JPG",
         "loi des noueds.PNG",
         "paste-071a9751c587704dc5c0bc0fbf09ec26f5696a88.jpg",
         "paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg",
         "paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg",
         "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
+<<<<<<< HEAD
         "paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg",
+=======
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg",
         "paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg",
         "paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg",
         "paste-ba1623689ed719e19d828b42ff8328f3f7ed0c76.jpg",
         "paste-c01b5a247d7c5c4c44d1953f393d5e4ebdd1a753.jpg",
-        "resistance fil.PNG"
+        "resistance fil.PNG",
+        "spectre1.png",
+        "spectre2.png"
     ],
     "name": "Physique1",
     "newLimit": null,
@@ -84,6 +97,76 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+<<<<<<< HEAD
+=======
+            "crowdanki_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-14865",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             "crowdanki_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -92,24 +175,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -135,6 +224,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -152,24 +242,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -195,6 +291,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -212,24 +309,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -255,6 +358,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -272,24 +376,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -315,6 +425,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -332,24 +443,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -375,6 +492,74 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique+-baa87",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -452,30 +637,40 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Gadugi",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Okaso Okaso",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
+<<<<<<< HEAD
             "name": "Basique",
+=======
+            "name": "Basique++++++++-baa87",
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             "originalStockKind": 1,
             "req": [
                 [
@@ -495,6 +690,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -512,24 +708,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -555,6 +757,7 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -572,24 +775,30 @@
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Recto",
                     "ord": 0,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 },
                 {
                     "collapsed": false,
                     "description": "",
                     "excludeFromSearch": false,
                     "font": "Arial",
+                    "id": null,
                     "name": "Verso",
                     "ord": 1,
                     "plainText": false,
+                    "preventDeletion": false,
                     "rtl": false,
                     "size": 20,
-                    "sticky": false
+                    "sticky": false,
+                    "tag": null
                 }
             ],
             "latexPost": "\\end{document}",
@@ -615,6 +824,276 @@
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique (saisissez la réponse)-e3be7",
+            "originalStockKind": 3,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{Recto}}\n\n<hr id=answer>\n\n{{type:Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}\n\n{{type:Verso}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f4f45eb5-8a19-11ee-b61e-94085376bb82",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-5b510",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 5283494728612144059,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7803264801179849414,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-974da",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 8389447247112259745,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-c09a7",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
                     "name": "Carte 1",
                     "ord": 0,
                     "qfmt": "{{Recto}}"
@@ -688,6 +1167,74 @@
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
+=======
+                "<u><b>Signaux</b></u><br><ol><li><b>Mesurer une Période (T) :<br></b>La période d'un signal périodique est le temps nécessaire pour qu'une oscillation complète se produise. Pour mesurer la période (\\(T\\)<span style=\"font-weight: 600;\">), on peut utiliser un oscilloscope et mesurer la durée entre deux points correspondant à deux points identiques d'une oscillation complète.</span></li><li><b>Calculer la Fréquence (f) :<br></b>La fréquence d'un signal est le nombre d'oscillations par unité de temps.<br>Elle est inverse de la période et se calcule avec la formule :&nbsp;\\(f = \\frac{1}{T}\\)<br>La fréquence est mesurée en hertz (\\(Hz\\)<span style=\"font-weight: 600;\">), où </span>\\(1Hz\\)<span style=\"font-weight: 600;\">&nbsp;équivaut à une oscillation par seconde.</span></li><li><b>Calculer une Valeur Moyenne :<br></b>La valeur moyenne d'un signal périodique peut être calculée en prenant la moyenne des valeurs instantanées sur une période complète. Pour une fonction&nbsp;\\(x = (t)\\)<span style=\"font-weight: 600;\">&nbsp;sur une période&nbsp;</span>\\(T\\)<span style=\"font-weight: 600;\">,&nbsp;la valeur moyenne&nbsp;</span>\\(V_{moy}\\)<span style=\"font-weight: 600;\">&nbsp;est donnée par :&nbsp;</span>\\(V_{moy} = \\frac{1}{T} \\int_{0}^{T} x(t) \\, dt\\)<br>\\(A =\\)<span style=\"font-weight: 600;\">&nbsp;Amplitude&nbsp;</span>\\(f =\\)<span style=\"font-weight: 600;\">&nbsp;fréquence ,&nbsp;</span>\\(t =\\)<span style=\"font-weight: 600;\">&nbsp;temps,&nbsp; &nbsp;</span>\\(x(t) = {A\\sin(2{\\pi}ft)}\\)<br>En résumé, la période mesure le temps d'une oscillation, la fréquence représente le nombre d'oscillations par unité de temps, et la valeur moyenne est une mesure de la tendance centrale du signal sur une période donnée.</li></ol>",
+                "<u><b>Exemple</b></u><br>Fonction sinusoïdale :&nbsp;\\(x(t) = 5\\sin(2\\pi \\, \\times \\, 50t)\\), où&nbsp;\\(A = 5\\)&nbsp;et&nbsp;\\(f = 50Hz\\)<br>Période de cette fonction sinusoïdale est&nbsp;\\(T = \\frac{1}{f} = \\frac{1}{50} \\approx  0.02\\)&nbsp;secondes<br>Valeur moyenne :&nbsp;\\(V_{moy} = \\frac{1}{\\frac{T}{2}} \\int_{0}^{\\frac{T}{2}} x(t) \\, dt\\)<br>Valeur moyenne sur demi-période :&nbsp;\\(V_{moy} = \\frac{1}{0.01} \\int_{0}^{0.01} \\sin(2\\pi \\, \\times \\, 50t) \\, dt\\)<br>Ce calcul spécifique nécessite une intégration trigonométrique, mais en général, pour une sinusoïde sur une demi-période, la valeur moyenne sera égale à l'amplitude divisée par&nbsp;\\(\\pi\\), soit&nbsp;\\(V_{moy} = \\frac{A}{\\pi}\\).<br>Dans cet exemple :&nbsp;\\(V_{moy} \\approx \\frac{5}{\\pi} \\approx 1.59\\)"
+            ],
+            "guid": "g+C,0I9.@D",
+            "note_model_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "tags": [
+                "Begue",
+                "signaux"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><u>Sinus<br><ol><li><span style=\"font-weight: bold;\">Calculer la valeur moyenne&nbsp;</span>\\(V_{\\text{moy}}\\)<span style=\"font-weight: bold;\">&nbsp;d'une fonction sinus sur une période  :&nbsp;</span>\\(V_{\\text{moy}} = \\frac{1}{T} \\int_{0}^{T} \\sin(t) \\,dt\\)</li><li>Cette formule représente la valeur moyenne d'une fonction sinus sur une période&nbsp;\\(T\\)</li></ol></u></b>",
+                "<b><u>Exemple</u><br><br></b>\\(V_{moy} = \\frac{R_{2}}{{R_{1}+}R_{1}} \\times \\sin(2{\\pi}ft)\\)&nbsp;où&nbsp;\\(f\\)&nbsp;est est la fréquence du signal sinusoïdal."
+            ],
+            "guid": "r1M/P.2n|e",
+            "note_model_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "tags": [
+                "Begue",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Pont diviseur<br><ol><li><u style=\"font-weight: bold;\"><b>\\(V_{out} = \\frac{R_2}{R_1 + R_2} \\times V_{in}\\)</b></u></li></ol></b></u><u style=\"font-weight: bold;\"><b><br><div><img src=\"PontDiviseur.png\" width=\"207\"><br></div></b></u>",
+                "<b><u>Exemple<br></u></b>Supposons que&nbsp;\\(R_1 = 10k\\Omega,\\;R_{\\text{1}} = 20k\\Omega\\)&nbsp;et&nbsp;\\(V_{\\text{in}} = 5 V\\).<b><u><br></u></b>La tension de sortie serait :&nbsp;\\(\\frac{20k\\Omega}{10k\\Omega \\; + \\; 20k\\Omega} \\times V_{5} = 3.33V\\)"
+            ],
+            "guid": "o!].[]lhH)",
+            "note_model_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "tags": [
+                "Begue",
+                "pont::diviseur"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight:600\"><u>Spectre</u><br><ol><li><span style=\"font-weight: 600;\">Tracer un spectre à partir de la décomposition des sinus :<br></span>Le tracé d'un spectre à partir de la décomposition des sinus est une méthode d'analyse permettant d'étudier la composition en fréquence d'un signal. En utilisant la décomposition en sinus, le signal complexe est représenté comme une combinaison pondérée de sinus. Le spectre obtenu illustre les composantes fréquentielles, chaque sinus étant défini par une fréquence et une amplitude spécifiques. En représentant graphiquement ces composantes, le spectre révèle l'amplitude relative des différentes fréquences, offrant ainsi une visualisation claire des caractéristiques fréquentielles du signal. Cette approche est essentielle pour analyser aussi bien des signaux périodiques que non périodiques.</li></ol></span></b>",
+                "<b><u>Exemples<br></u></b><img src=\"spectre1.png\">&nbsp; &nbsp;<img src=\"spectre2.png\" width=\"429\">"
+            ],
+            "guid": "m)upaL?C?V",
+            "note_model_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "tags": [
+                "Begue",
+                "spectre"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight:600\"><u>Mesure de Bande Passante</u><br><div style=\"text-align: left;\">Points de Coupure :<br></div></span></b><ol><li><span style=\"font-weight: 600;\">Identifiez les points de coupure où la réponse du système commence à diminuer. Ces points sont souvent définis par des fréquences spécifiques où l'amplitude du signal est atténuée d'un certain pourcentage par rapport à la fréquence centrale.</span></li><li><span style=\"font-weight: 600;\">La bande passante peut également être déterminée en mesurant la largeur à mi-hauteur (largeur à&nbsp;</span>\\(-3dB\\)<span style=\"font-weight: 600;\">) de la réponse en fréquence.</span></li></ol>",
+                "<b><u>Exemple<br></u></b>Supposons que vous mesurez la réponse en fréquence d'un filtre passe-bas et que vous trouvez que l'amplitude chute de&nbsp;\\(3dB\\)&nbsp;à&nbsp;\\(500Hz\\)&nbsp;et à&nbsp;\\(3kHz\\).<br>La bande passante serait de&nbsp;\\(3kHz \\, - \\, 500Hz \\,= \\, 2.5kHz\\)<br><img src=\"bandePassante.png\" width=\"696\">"
+            ],
+            "guid": "RaU/PozC]+",
+            "note_model_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "tags": [
+                "bande::passante",
+                "Begue"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
                 "Formule lois d'ohm",
                 "u(t) = Ri(t)<br>&nbsp;&nbsp;<img src=\"paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg\">"
             ],
@@ -982,6 +1529,7 @@
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
                 "Quellle formule utiliser la valeur moyenne d'un signal ?",
                 "&lt;x&gt; = Xmax + Xmin/2"
             ],
@@ -990,11 +1538,24 @@
             "tags": [
                 "Hassan",
                 "signal"
+=======
+                "Quel est la formule du gain en tension et quel est son unité ?",
+                "Pour trouver le gain de tension il faut appliquer la formule:<br>G = 20 log (Us/Ue) son résultat sera en decibel (dB)<br><img src=\"gain en tension.JPG\" width=\"330\">"
+            ],
+            "guid": "f==P,2g*n^",
+            "note_model_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
+            "tags": [
+                "1er::année",
+                "Amplification",
+                "DEURVEILLER",
+                "physique"
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
                 "Quelle est la formule pour trouver la valeur efficace d'une tension ou d'un courant ?",
                 "<img src=\"paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg\">"
             ],
@@ -1003,11 +1564,22 @@
             "tags": [
                 "Hassan",
                 "signal"
+=======
+                "quel est le calcul de l'amplification de tension",
+                "Av= Vs/Ve"
+            ],
+            "guid": "h+bM?rL=Qm",
+            "note_model_uuid": "f4f45eb5-8a19-11ee-b61e-94085376bb82",
+            "tags": [
+                "Amplification",
+                "Aymerick"
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
                 "Qu'est ce que l'incertitude de type A ?",
                 "&nbsp;L'incertitude de Type A est&nbsp; calculée à partir d'une série de mesures&nbsp; de la meme grandeurs physique (effectuées dans les mêmes conditions)."
             ],
@@ -1016,11 +1588,22 @@
             "tags": [
                 "Hassan",
                 "incertitude"
+=======
+                "Quel est la formule de l'amplification",
+                "Av= Vs/Ve"
+            ],
+            "guid": "M`ql(iT)Pm",
+            "note_model_uuid": "f4f45eb5-8a19-11ee-b61e-94085376bb82",
+            "tags": [
+                "Amplification",
+                "Aymerick"
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
                 "Qu'est ce que l'incertitude de type B ?",
                 "L'incertitude de type B permet de calculer une mesure unique et elle doit etre réévalués à chaque fois qu'un paramètre change."
             ],
@@ -1029,11 +1612,26 @@
             "tags": [
                 "Hassan",
                 "incertitude"
+=======
+                "Donner la formule de l'amplification en tension",
+                "Av = Vs / Ve"
+            ],
+            "guid": "s%N[JVGP-^",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "tags": [
+                "1STS",
+                "Amplification_en_tension",
+                "Chapitre_Amplication",
+                "IR",
+                "marel",
+                "physique"
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
+<<<<<<< HEAD
                 "Quelle est la formule de la Tolérance du type A ?",
                 "a/<span style=\"background-color: rgb(255, 255, 255);\">√3</span>"
             ],
@@ -1042,6 +1640,114 @@
             "tags": [
                 "Hassan",
                 "incertitude"
+=======
+                "Donner la formule du gain en tension",
+                "Gv = 20 log (Av)"
+            ],
+            "guid": "wb?cPcRNUp",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "tags": [
+                "1STS",
+                "Chapitre_Amplication",
+                "Gain_en_tension",
+                "IR",
+                "marel",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule de l'amplification en courant",
+                "Ai = Is / Ie"
+            ],
+            "guid": "xAC;9&Qr(<",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "tags": [
+                "1STS",
+                "Amplification_en_courant",
+                "Chapitre_Amplication",
+                "IR",
+                "marel",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule du gain en courant",
+                "Gi = 20 log (Ai)"
+            ],
+            "guid": "K*]3ucDW@e",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "tags": [
+                "1STS",
+                "Chapitre_Amplication",
+                "Gain_en_courant",
+                "IR",
+                "marel",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule de l'amplication en puissance",
+                "Ap = Ps / Pe"
+            ],
+            "guid": "rckI?8>a0R",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "tags": [
+                "1STS",
+                "Amplification_en_puissance",
+                "Chapitre_Amplication",
+                "IR",
+                "marel",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule du gain en puissance",
+                "Gp = 10 log (Ap)"
+            ],
+            "guid": "d]LN0WQrJO",
+            "note_model_uuid": "26433e34-9013-11ee-ae54-50ebf647a705",
+            "tags": [
+                "1STS",
+                "Chapitre_Amplication",
+                "Gain_en_puissance",
+                "IR",
+                "marel",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner le pont diviseur de courant",
+                "i2 =R1/R1+R2xi0<br><br><img src=\"Capture2.PNG\">"
+            ],
+            "guid": "uPYd`LP^EM",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "loi_electriques",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la loi des noeuds",
+                "<img src=\"Capture6.PNG\">"
+            ],
+            "guid": "BEpWw`eWK=",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "loi_electriques",
+                "physique"
+>>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         }
     ],
