@@ -88,9 +88,12 @@
         "paste-ba1623689ed719e19d828b42ff8328f3f7ed0c76.jpg",
         "paste-c01b5a247d7c5c4c44d1953f393d5e4ebdd1a753.jpg",
         "paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg",
+        "pulsation.png",
         "resistance fil.PNG",
+        "sinusoidale.png",
         "spectre1.png",
-        "spectre2.png"
+        "spectre2.png",
+        "trigo.png"
     ],
     "name": "Physique1",
     "newLimit": null,
@@ -1310,12 +1313,18 @@
         {
             "__type__": "Note",
             "fields": [
-                "Quel est la formule de la valeur efficace ?",
-                "Amplitude / racine carré de 2"
+                "Qu'est ce que la valeur efficace et comment la calculer ?",
+                "La valeur efficace est la valeur continue qui possède la même énergie<br>que le signal.<br>\\[Veff = A / √2\\]<br>"
             ],
             "guid": "J[nN2A)_]K",
             "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
-            "tags": []
+            "tags": [
+                "1er::année",
+                "1STS",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "valeur::efficace"
+            ]
         },
         {
             "__type__": "Note",
@@ -1370,98 +1379,6 @@
             "tags": [
                 "Amplification",
                 "Aymerick"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Test1",
-                "HéHéBOIIIII"
-            ],
-            "guid": "e/l2kW:n4A",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la Vitesse de la lumière (L'arrondie)",
-                "299 792,458 km/s sois 300 000 km/s en arrondie"
-            ],
-            "guid": "He@DjeN7UX",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est le spcetre visible de la lumière",
-                "Elle est situées entre 380 à 780 nm (nm : nanomètre)"
-            ],
-            "guid": "|SNHf9$p@",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est le therme pour expliquer le défault de non linéaritée ?",
-                "<b><span style=\"font-weight: 400;\">le</span><span style=\"font-weight: 400;\"> taux de distorsion harmonique</span></b>"
-            ],
-            "guid": "s,6jE!854G",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "definition de ALI",
-                "Alimentation Linéaire Intégrée&nbsp;"
-            ],
-            "guid": "M=G9/h!A_3",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "ali",
-                "bts1",
-                "eléctricité",
-                "Laborde",
-                "physique",
-                "Rudolph"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la formule pour calculer la bande passante",
-                "Gmax -3dB"
-            ],
-            "guid": "AP5(7CnH3#",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "ali",
-                "ampl",
-                "bts1",
-                "Laborde",
-                "physique",
-                "Rudolph"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un synthé fait quoi aux sinus pour faire le bruit d'un instrument",
-                "<b><span style=\"font-weight: 400;\">Le synthé permet de moduler la fréquence du fondamentale qui est dans ce cas la la note de musique et ensuite on va pouvoir faire en sorte de faire un x2 pour les harmonique et les harmoniques vont permettre de faire le timbre de l'instrument</span></b>"
-            ],
-            "guid": "cb?I|9qaQ_",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "ali",
-                "bts1",
-                "fourrier",
-                "Laborde",
-                "physique",
-                "Rudolph",
-                "synthé"
             ]
         },
         {
@@ -1655,6 +1572,148 @@
             "tags": [
                 "loi_electriques",
                 "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer la fréquence d'un signal ?",
+                "Pour calculer le fréquence d'un signal il faut utiliser la formule :&nbsp;\\[f=1/T\\]T = La période en seconde (s)<br>F = La fréquence en Hertz (Hz)"
+            ],
+            "guid": "p_E_,h=i{e",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "Période::et::Fréquence"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment est représentée une grandeur sinusoïdale ?",
+                "Une grandeur sinusoïdale est représentée par :<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src=\"sinusoidale.png\"><br>Xm est l’amplitude<br>ωt + φ est la phase à l’instant t (en radian)<br>ω est la pulsation&nbsp;<img src=\"pulsation.png\">&nbsp;en rad.s<sup>-1</sup>&nbsp;est proportionnelle à la fréquence f"
+            ],
+            "guid": "n~EHPR$m:l",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "Caractéristiques",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "signaux::sinusoïdaux"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment se lit le cos θ et sin θ dans&nbsp;un cercle trigonométrique ?",
+                "Le cos θ se lit sur l’axe des abscisses et le sin θ sur l’axe des ordonnées lorsque le point se déplace sur le cercle unité<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src=\"trigo.png\" width=\"417\" style=\"\">"
+            ],
+            "guid": "Cf&XE8#T37",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "Cercle::trigonométrique",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "signaux::sinusoïdaux"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Test1",
+                "HéHéBOIIIII"
+            ],
+            "guid": "e/l2kW:n4A",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la Vitesse de la lumière (L'arrondie)",
+                "299 792,458 km/s sois 300 000 km/s en arrondie"
+            ],
+            "guid": "He@DjeN7UX",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est le spcetre visible de la lumière",
+                "Elle est situées entre 380 à 780 nm (nm : nanomètre)"
+            ],
+            "guid": "|SNHf9$p@",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est le therme pour expliquer le défault de non linéaritée ?",
+                "<b><span style=\"font-weight: 400;\">le</span><span style=\"font-weight: 400;\"> taux de distorsion harmonique</span></b>"
+            ],
+            "guid": "s,6jE!854G",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "definition de ALI",
+                "Alimentation Linéaire Intégrée&nbsp;"
+            ],
+            "guid": "M=G9/h!A_3",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "bts1",
+                "eléctricité",
+                "Laborde",
+                "physique",
+                "Rudolph"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer la bande passante",
+                "Gmax -3dB"
+            ],
+            "guid": "AP5(7CnH3#",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "ampl",
+                "bts1",
+                "Laborde",
+                "physique",
+                "Rudolph"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un synthé fait quoi aux sinus pour faire le bruit d'un instrument",
+                "<b><span style=\"font-weight: 400;\">Le synthé permet de moduler la fréquence du fondamentale qui est dans ce cas la la note de musique et ensuite on va pouvoir faire en sorte de faire un x2 pour les harmonique et les harmoniques vont permettre de faire le timbre de l'instrument</span></b>"
+            ],
+            "guid": "cb?I|9qaQ_",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "bts1",
+                "fourrier",
+                "Laborde",
+                "physique",
+                "Rudolph",
+                "synthé"
             ]
         },
         {
