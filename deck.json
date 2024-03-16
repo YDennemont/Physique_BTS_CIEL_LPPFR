@@ -77,10 +77,6 @@
         "paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg",
         "paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg",
         "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
-<<<<<<< HEAD
-        "paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg",
-=======
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg",
         "paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg",
@@ -97,8 +93,6 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-<<<<<<< HEAD
-=======
             "crowdanki_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -166,7 +160,6 @@
         },
         {
             "__type__": "NoteModel",
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             "crowdanki_uuid": "9df250cf-696d-11ee-a60f-00d861748303",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -569,67 +562,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "9df250ea-696d-11ee-babc-00d861748303",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique+-baa87",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
             "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
             "flds": [
                 {
@@ -666,11 +599,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-<<<<<<< HEAD
-            "name": "Basique",
-=======
             "name": "Basique++++++++-baa87",
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             "originalStockKind": 1,
             "req": [
                 [
@@ -1100,75 +1029,12 @@
                 }
             ],
             "type": 0
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
-            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Arial",
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique (saisissez la réponse)",
-            "originalStockKind": 3,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0,
-                        1
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{Recto}}\n\n<hr id=answer>\n\n{{type:Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}\n\n{{type:Verso}}"
-                }
-            ],
-            "type": 0
         }
     ],
     "notes": [
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-=======
                 "<u><b>Signaux</b></u><br><ol><li><b>Mesurer une Période (T) :<br></b>La période d'un signal périodique est le temps nécessaire pour qu'une oscillation complète se produise. Pour mesurer la période (\\(T\\)<span style=\"font-weight: 600;\">), on peut utiliser un oscilloscope et mesurer la durée entre deux points correspondant à deux points identiques d'une oscillation complète.</span></li><li><b>Calculer la Fréquence (f) :<br></b>La fréquence d'un signal est le nombre d'oscillations par unité de temps.<br>Elle est inverse de la période et se calcule avec la formule :&nbsp;\\(f = \\frac{1}{T}\\)<br>La fréquence est mesurée en hertz (\\(Hz\\)<span style=\"font-weight: 600;\">), où </span>\\(1Hz\\)<span style=\"font-weight: 600;\">&nbsp;équivaut à une oscillation par seconde.</span></li><li><b>Calculer une Valeur Moyenne :<br></b>La valeur moyenne d'un signal périodique peut être calculée en prenant la moyenne des valeurs instantanées sur une période complète. Pour une fonction&nbsp;\\(x = (t)\\)<span style=\"font-weight: 600;\">&nbsp;sur une période&nbsp;</span>\\(T\\)<span style=\"font-weight: 600;\">,&nbsp;la valeur moyenne&nbsp;</span>\\(V_{moy}\\)<span style=\"font-weight: 600;\">&nbsp;est donnée par :&nbsp;</span>\\(V_{moy} = \\frac{1}{T} \\int_{0}^{T} x(t) \\, dt\\)<br>\\(A =\\)<span style=\"font-weight: 600;\">&nbsp;Amplitude&nbsp;</span>\\(f =\\)<span style=\"font-weight: 600;\">&nbsp;fréquence ,&nbsp;</span>\\(t =\\)<span style=\"font-weight: 600;\">&nbsp;temps,&nbsp; &nbsp;</span>\\(x(t) = {A\\sin(2{\\pi}ft)}\\)<br>En résumé, la période mesure le temps d'une oscillation, la fréquence représente le nombre d'oscillations par unité de temps, et la valeur moyenne est une mesure de la tendance centrale du signal sur une période donnée.</li></ol>",
                 "<u><b>Exemple</b></u><br>Fonction sinusoïdale :&nbsp;\\(x(t) = 5\\sin(2\\pi \\, \\times \\, 50t)\\), où&nbsp;\\(A = 5\\)&nbsp;et&nbsp;\\(f = 50Hz\\)<br>Période de cette fonction sinusoïdale est&nbsp;\\(T = \\frac{1}{f} = \\frac{1}{50} \\approx  0.02\\)&nbsp;secondes<br>Valeur moyenne :&nbsp;\\(V_{moy} = \\frac{1}{\\frac{T}{2}} \\int_{0}^{\\frac{T}{2}} x(t) \\, dt\\)<br>Valeur moyenne sur demi-période :&nbsp;\\(V_{moy} = \\frac{1}{0.01} \\int_{0}^{0.01} \\sin(2\\pi \\, \\times \\, 50t) \\, dt\\)<br>Ce calcul spécifique nécessite une intégration trigonométrique, mais en général, pour une sinusoïde sur une demi-période, la valeur moyenne sera égale à l'amplitude divisée par&nbsp;\\(\\pi\\), soit&nbsp;\\(V_{moy} = \\frac{A}{\\pi}\\).<br>Dans cet exemple :&nbsp;\\(V_{moy} \\approx \\frac{5}{\\pi} \\approx 1.59\\)"
             ],
@@ -1234,7 +1100,6 @@
         {
             "__type__": "Note",
             "fields": [
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
                 "Formule lois d'ohm",
                 "u(t) = Ri(t)<br>&nbsp;&nbsp;<img src=\"paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg\">"
             ],
@@ -1389,7 +1254,7 @@
                 "i1+i3+i4=i2+i5"
             ],
             "guid": "i>k,013~-A",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
             "tags": [
                 "electricity",
                 "Hassan",
@@ -1529,16 +1394,6 @@
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-                "Quellle formule utiliser la valeur moyenne d'un signal ?",
-                "&lt;x&gt; = Xmax + Xmin/2"
-            ],
-            "guid": "jL$OA~8rQ|",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "signal"
-=======
                 "Quel est la formule du gain en tension et quel est son unité ?",
                 "Pour trouver le gain de tension il faut appliquer la formule:<br>G = 20 log (Us/Ue) son résultat sera en decibel (dB)<br><img src=\"gain en tension.JPG\" width=\"330\">"
             ],
@@ -1549,22 +1404,11 @@
                 "Amplification",
                 "DEURVEILLER",
                 "physique"
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-                "Quelle est la formule pour trouver la valeur efficace d'une tension ou d'un courant ?",
-                "<img src=\"paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg\">"
-            ],
-            "guid": "B{RG+OOgWU",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "signal"
-=======
                 "quel est le calcul de l'amplification de tension",
                 "Av= Vs/Ve"
             ],
@@ -1573,22 +1417,11 @@
             "tags": [
                 "Amplification",
                 "Aymerick"
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-                "Qu'est ce que l'incertitude de type A ?",
-                "&nbsp;L'incertitude de Type A est&nbsp; calculée à partir d'une série de mesures&nbsp; de la meme grandeurs physique (effectuées dans les mêmes conditions)."
-            ],
-            "guid": "s|B!}>Mlib",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-=======
                 "Quel est la formule de l'amplification",
                 "Av= Vs/Ve"
             ],
@@ -1597,22 +1430,11 @@
             "tags": [
                 "Amplification",
                 "Aymerick"
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-                "Qu'est ce que l'incertitude de type B ?",
-                "L'incertitude de type B permet de calculer une mesure unique et elle doit etre réévalués à chaque fois qu'un paramètre change."
-            ],
-            "guid": "uWP?xk)bXH",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-=======
                 "Donner la formule de l'amplification en tension",
                 "Av = Vs / Ve"
             ],
@@ -1625,22 +1447,11 @@
                 "IR",
                 "marel",
                 "physique"
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-<<<<<<< HEAD
-                "Quelle est la formule de la Tolérance du type A ?",
-                "a/<span style=\"background-color: rgb(255, 255, 255);\">√3</span>"
-            ],
-            "guid": "nu)5~#mc0v",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-=======
                 "Donner la formule du gain en tension",
                 "Gv = 20 log (Av)"
             ],
@@ -1747,7 +1558,6 @@
             "tags": [
                 "loi_electriques",
                 "physique"
->>>>>>> 55ef00c05e570befb3266305058ff0e55b0e906d
             ]
         }
     ],
