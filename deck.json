@@ -6,6 +6,7 @@
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
+            "answerAction": 0,
             "autoplay": true,
             "buryInterdayLearning": false,
             "crowdanki_uuid": "9df229e8-696d-11ee-82ed-00d861748303",
@@ -54,9 +55,13 @@
                 "perDay": 200
             },
             "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
             "sm2Retention": 0.9,
             "stopTimerOnAnswer": false,
-            "timer": 0
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
         }
     ],
     "desc": "",
@@ -78,15 +83,23 @@
         "paste-268bcc9a7c61e9540ee4acd4a4224c77c254a259.jpg",
         "paste-464300ce122c1658fab4a31cc77bc3aa2bb47582.jpg",
         "paste-5b5e555a14a8fa64aeaf6ccad0530fe3568f314a.jpg",
+        "paste-5e61ef6f292bba8f70404de034df222dafc7a2ab.jpg",
+        "paste-6323498ac9fb1325e0eac893a2b46427f9f3d8dd.jpg",
         "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
+        "paste-6d9c5df223376ee0d61458b9a7005a6bd261c79f.jpg",
+        "paste-75eac071035c2ce258ae94fa97491b4afe1bda7f.jpg",
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-8cb7dcc5e5ecae8a0ca509ec8642351f632ca24a.jpg",
         "paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg",
+        "paste-ae37154a72593c844d5645ee48e458b24acc099c.jpg",
         "paste-af30b03326ce681f836a082c48852d21c079ee7b.jpg",
+        "paste-b12bc34ec65a57ddc27c694b189d66fd6d62a52a.jpg",
         "paste-b1411b45c669303d05f3bf87690da5f5aab74718.jpg",
         "paste-b9e152a73e7ed28b4ae79e8a534237a9047359f2.jpg",
         "paste-ba1623689ed719e19d828b42ff8328f3f7ed0c76.jpg",
         "paste-c01b5a247d7c5c4c44d1953f393d5e4ebdd1a753.jpg",
+        "paste-db9cd14ccbffe39232f9db7f4461ffdd38e16b52.jpg",
+        "paste-e429aef78c74a6ea3c128c039e3e3e7b7d1338fe.jpg",
         "paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg",
         "pulsation.png",
         "resistance fil.PNG",
@@ -1752,6 +1765,150 @@
                 "valeur",
                 "valeur::moyenne",
                 "VocabulaireGénérale"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Q'uest ce que la loi des mailles et comment la calcule t- on ?",
+                "La loi des noeuds cest la&nbsp; somme des intensités des courants qui arrivent à un noeud est égale à la somme des intensités des courants qui en repartent.<br><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</i><img src=\"paste-ae37154a72593c844d5645ee48e458b24acc099c.jpg\"><br><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;i<sub>1+</sub>i<sub>3</sub>+i<sub>4</sub>=i<sub>2</sub>+i<sub>5</sub></i>"
+            ],
+            "guid": "LLXdx))&Zy",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "Loi_des_noeuds"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est le formule pour calculer la <u>Loi d'Ohm</u> ?",
+                "Pour calculer la Loi d'Ohm il faut utiliser la formule :<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i><u>U = R x I<br></u></i><br>U : La tension (en volt&nbsp; (V))<br>R : La résistance ( en ohm (Ω))<br>I : Le courant ( en ampere (A))<br><br>"
+            ],
+            "guid": "DU>(DAsCPW",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "Loi_d'Ohm"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer la <u>Loi des Mailles</u> ?",
+                "Pour calculer la Loi des mailles il faut additioner les tensions aux bornes d'un circuit et utiliser la formule :<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i>U<sub>AB</sub>+U<sub>BC</sub>&nbsp;- U<sub>DC</sub>+U<sub>DA</sub></i>&nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src=\"paste-75eac071035c2ce258ae94fa97491b4afe1bda7f.jpg\">&nbsp;<br>"
+            ],
+            "guid": "Q;PiKR/V6",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "Loi_des_Mailles"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Quelle est la formule pour calculer <u>la résistance équivalente</u> ?&nbsp;</div>",
+                "Pour calculer la valeur de la résistance en&nbsp; série, la formule suivante doit être utilisée :<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R<sub>eq</sub> = R<sub>1</sub>+R<sub>2</sub>+R<sub>3<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</sub><img src=\"paste-5e61ef6f292bba8f70404de034df222dafc7a2ab.jpg\"><sub><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br><br><br></sub>"
+            ],
+            "guid": "B#|rEHr6;+",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "RésistanceEquivalente"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer une résistance équivalente en<u> parallèle</u> ?",
+                "Ex de schéma :<br><br><img src=\"paste-b12bc34ec65a57ddc27c694b189d66fd6d62a52a.jpg\"><br><br>&nbsp;Il faut utiliser la formule suivante :&nbsp; &nbsp;<br><br><img src=\"paste-6323498ac9fb1325e0eac893a2b46427f9f3d8dd.jpg\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br><br><br>"
+            ],
+            "guid": "PEB#ad&-4a",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "RésistanceEquivalente_Parallèle"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer le <u>pont diviseur de tension</u>?",
+                "Pour claculer le pont diviseur de tension il faut utiliser cette formule:<br><br><img src=\"paste-6d9c5df223376ee0d61458b9a7005a6bd261c79f.jpg\"><br><br><i>V2 = R2 / R1 + R2&nbsp; x V0</i><br><br>V<sub>0</sub> = tension d'entrée<br>V<sub>2</sub> = tension de sortie"
+            ],
+            "guid": "b2X3-~S;RI",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "PontDiviseur_de_tension"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer le&nbsp;<u>pont diviseur de courant</u>?",
+                "Pour claculer le pont diviseur de tension il faut utiliser cette formule:<i><br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;i<sub>2</sub> = R<sub>1</sub> / R<sub>1</sub> + R<sub>2</sub>&nbsp; x i<sub>0</sub><br></i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src=\"paste-e429aef78c74a6ea3c128c039e3e3e7b7d1338fe.jpg\">"
+            ],
+            "guid": "qsALJ#~pl{",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "PontDiviseur_de_courant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour deux r<u>ésistances équivalentes en parallèle</u> ?",
+                "Pour deux résistance équivalente il faut utiliser celle ci :<br><br><img src=\"paste-db9cd14ccbffe39232f9db7f4461ffdd38e16b52.jpg\">"
+            ],
+            "guid": "BK{}k!Zv=7",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "PontDiviseur_de_courant"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule de la puissance électrique ?",
+                "La&nbsp;&nbsp;formule de la puissance électrique :&nbsp;<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i>&nbsp; &nbsp; P = U x I&nbsp;<br></i>P : en Watt<br>U : en Volt<br>I&nbsp; : en Ampere&nbsp;"
+            ],
+            "guid": "r9Ap3H*oyS",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "CORRE",
+                "Grandeur_et_Circuits_Electriques",
+                "Puissance"
             ]
         }
     ],
