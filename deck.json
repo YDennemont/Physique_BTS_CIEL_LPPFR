@@ -88,6 +88,7 @@
         "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
         "paste-6d9c5df223376ee0d61458b9a7005a6bd261c79f.jpg",
         "paste-75eac071035c2ce258ae94fa97491b4afe1bda7f.jpg",
+        "paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg",
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-8cb7dcc5e5ecae8a0ca509ec8642351f632ca24a.jpg",
         "paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg",
@@ -785,6 +786,73 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Gadugi",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Okaso Okaso",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -1356,6 +1424,163 @@
         {
             "__type__": "Note",
             "fields": [
+                "Quellle formule utiliser la valeur moyenne d'un signal ?",
+                "&lt;x&gt; = Xmax + Xmin/2"
+            ],
+            "guid": "jL$OA~8rQ|",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "Hassan",
+                "signal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour trouver la valeur efficace d'une tension ou d'un courant ?",
+                "<img src=\"paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg\">"
+            ],
+            "guid": "B{RG+OOgWU",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "Hassan",
+                "signal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que l'incertitude de type A ?",
+                "&nbsp;L'incertitude de Type A est&nbsp; calculée à partir d'une série de mesures&nbsp; de la meme grandeurs physique (effectuées dans les mêmes conditions)."
+            ],
+            "guid": "s|B!}>Mlib",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "Hassan",
+                "incertitude"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que l'incertitude de type B ?",
+                "L'incertitude de type B permet de calculer une mesure unique et elle doit etre réévalués à chaque fois qu'un paramètre change."
+            ],
+            "guid": "uWP?xk)bXH",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "Hassan",
+                "incertitude"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule de la Tolérance du type A ?",
+                "a/<span style=\"background-color: rgb(255, 255, 255);\">√3</span>"
+            ],
+            "guid": "nu)5~#mc0v",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "Hassan",
+                "incertitude"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Test1",
+                "HéHéBOIIIII"
+            ],
+            "guid": "e/l2kW:n4A",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la Vitesse de la lumière (L'arrondie)",
+                "299 792,458 km/s sois 300 000 km/s en arrondie"
+            ],
+            "guid": "He@DjeN7UX",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est le spcetre visible de la lumière",
+                "Elle est situées entre 380 à 780 nm (nm : nanomètre)"
+            ],
+            "guid": "|SNHf9$p@",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est le therme pour expliquer le défault de non linéaritée ?",
+                "<b><span style=\"font-weight: 400;\">le</span><span style=\"font-weight: 400;\"> taux de distorsion harmonique</span></b>"
+            ],
+            "guid": "s,6jE!854G",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "definition de ALI",
+                "Alimentation Linéaire Intégrée&nbsp;"
+            ],
+            "guid": "M=G9/h!A_3",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "bts1",
+                "eléctricité",
+                "Laborde",
+                "Physique",
+                "Rudolph"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer la bande passante",
+                "Gmax -3dB"
+            ],
+            "guid": "AP5(7CnH3#",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "ampl",
+                "bts1",
+                "Laborde",
+                "Physique",
+                "Rudolph"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un synthé fait quoi aux sinus pour faire le bruit d'un instrument",
+                "<b><span style=\"font-weight: 400;\">Le synthé permet de moduler la fréquence du fondamentale qui est dans ce cas la la note de musique et ensuite on va pouvoir faire en sorte de faire un x2 pour les harmonique et les harmoniques vont permettre de faire le timbre de l'instrument</span></b>"
+            ],
+            "guid": "cb?I|9qaQ_",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "ali",
+                "bts1",
+                "fourrier",
+                "Laborde",
+                "Physique",
+                "Rudolph",
+                "synthé"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
                 "Quel est la formule du gain en tension et quel est son unité ?",
                 "Pour trouver le gain de tension il faut appliquer la formule:<br>G = 20 log (Us/Ue) son résultat sera en decibel (dB)<br><img src=\"gain en tension.JPG\" width=\"330\">"
             ],
@@ -1365,7 +1590,7 @@
                 "1er::année",
                 "Amplification",
                 "DEURVEILLER",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1473,7 +1698,7 @@
                 "Chapitre_Amplication",
                 "IR",
                 "marel",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1490,7 +1715,7 @@
                 "Gain_en_tension",
                 "IR",
                 "marel",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1507,7 +1732,7 @@
                 "Chapitre_Amplication",
                 "IR",
                 "marel",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1524,7 +1749,7 @@
                 "Gain_en_courant",
                 "IR",
                 "marel",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1541,7 +1766,7 @@
                 "Chapitre_Amplication",
                 "IR",
                 "marel",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1558,7 +1783,7 @@
                 "Gain_en_puissance",
                 "IR",
                 "marel",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1571,7 +1796,7 @@
             "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "tags": [
                 "loi_electriques",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1584,7 +1809,7 @@
             "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "tags": [
                 "loi_electriques",
-                "physique"
+                "Physique"
             ]
         },
         {
@@ -1640,98 +1865,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Test1",
-                "HéHéBOIIIII"
-            ],
-            "guid": "e/l2kW:n4A",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la Vitesse de la lumière (L'arrondie)",
-                "299 792,458 km/s sois 300 000 km/s en arrondie"
-            ],
-            "guid": "He@DjeN7UX",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est le spcetre visible de la lumière",
-                "Elle est situées entre 380 à 780 nm (nm : nanomètre)"
-            ],
-            "guid": "|SNHf9$p@",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est le therme pour expliquer le défault de non linéaritée ?",
-                "<b><span style=\"font-weight: 400;\">le</span><span style=\"font-weight: 400;\"> taux de distorsion harmonique</span></b>"
-            ],
-            "guid": "s,6jE!854G",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "definition de ALI",
-                "Alimentation Linéaire Intégrée&nbsp;"
-            ],
-            "guid": "M=G9/h!A_3",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "ali",
-                "bts1",
-                "eléctricité",
-                "Laborde",
-                "physique",
-                "Rudolph"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la formule pour calculer la bande passante",
-                "Gmax -3dB"
-            ],
-            "guid": "AP5(7CnH3#",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "ali",
-                "ampl",
-                "bts1",
-                "Laborde",
-                "physique",
-                "Rudolph"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Un synthé fait quoi aux sinus pour faire le bruit d'un instrument",
-                "<b><span style=\"font-weight: 400;\">Le synthé permet de moduler la fréquence du fondamentale qui est dans ce cas la la note de musique et ensuite on va pouvoir faire en sorte de faire un x2 pour les harmonique et les harmoniques vont permettre de faire le timbre de l'instrument</span></b>"
-            ],
-            "guid": "cb?I|9qaQ_",
-            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
-            "tags": [
-                "ali",
-                "bts1",
-                "fourrier",
-                "Laborde",
-                "physique",
-                "Rudolph",
-                "synthé"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Qu'est ce qu'une valeur crête à crête ?",
                 "<img src=\"paste-5b5e555a14a8fa64aeaf6ccad0530fe3568f314a.jpg\"><br>La valeur maximale notée&nbsp;<img src=\"paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg\">&nbsp;moins la valeur minimale notée&nbsp;<img src=\"paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg\">"
             ],
@@ -1765,6 +1898,51 @@
                 "valeur",
                 "valeur::moyenne",
                 "VocabulaireGénérale"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><u>Calculer l'incertitude relative</u></b>",
+                "<u>Formule&nbsp;</u>:&nbsp;<span style=\"color: rgb(255, 0, 0);\">p% = 100 * U(X) / x&nbsp;</span><br><u>Ex&nbsp;</u>:&nbsp;<br>E = 2,48&nbsp;± 0,02 V ; 95%&nbsp;<br>&nbsp; &nbsp; &nbsp; p% = 100 * 0,02/2,48 = 0,8%"
+            ],
+            "guid": "GUBSn#v~hA",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "bts",
+                "Dorian",
+                "incertitude",
+                "Physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Définition : Incertitude de type A</b></u>",
+                "Elle est calculée à partir d'une&nbsp;<span style=\"color: rgb(255, 0, 0);\">série de mesures</span>&nbsp;de la même grandeur physique. La valeur vraie reste identique."
+            ],
+            "guid": "z/<ue`x(_6",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Définition : Incertitude de type B</b></u>",
+                "Une incertitude est de type B si elle concerne le cas d'une&nbsp;<span style=\"color: rgb(255, 0, 0);\">mesure unique</span>&nbsp;de la grandeur physique.<br><u>A chaque paramètre changé, elle doit être réévaluée.</u>"
+            ],
+            "guid": "rWao$#TkTH",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Physique"
             ]
         },
         {
@@ -1909,6 +2087,136 @@
                 "CORRE",
                 "Grandeur_et_Circuits_Electriques",
                 "Puissance"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><u>Calculer l'incertitude relative</u></b>",
+                "<u>Formule&nbsp;</u>:&nbsp;<span style=\"color: rgb(255, 0, 0);\">p% = 100 * U(X) / x&nbsp;</span><br><u>Ex&nbsp;</u>:&nbsp;<br>E = 2,48&nbsp;± 0,02 V ; 95%&nbsp;<br>&nbsp; &nbsp; &nbsp; p% = 100 * 0,02/2,48 = 0,8%"
+            ],
+            "guid": "vIkFKC]M=G",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Définition : Incertitude de type A</b></u>",
+                "Elle est calculée à partir d'une<span style=\"color: rgb(255, 0, 0);\">&nbsp;série de mesures</span>&nbsp;de la même grandeur physique. La valeur vraie reste identique."
+            ],
+            "guid": "FX2dSH%~O#",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Définition : Incertitude de type B</b></u>",
+                "Une incertitude est de type B si elle concerne le cas d'une&nbsp;<span style=\"color: rgb(255, 0, 0);\">mesure unique</span>&nbsp;de la grandeur physique.<br><u>A chaque paramètre changé, elle doit être réévaluée.</u>"
+            ],
+            "guid": "s+QF`<tbk/",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "bts1",
+                "Dorian",
+                "incertitude"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'une ALI ?",
+                "C'est un Amplificateur Linéaire Intégré"
+            ],
+            "guid": "hDxwh0W)B%",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "ali",
+                "Amplification",
+                "Hassan",
+                "Physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A quoi sert une ALI ?",
+                "Il amplifie la différence de potentiel entre ses deux entrées appelées entrée non inverseuse ⊕ et entrée inverseuse ⊖."
+            ],
+            "guid": "hYRGB:aEF]",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "ali",
+                "Amplification",
+                "Hassan",
+                "Physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule de l'amplification ?",
+                "Vs/Ve"
+            ],
+            "guid": "HD1T|!M5m(",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Amplification",
+                "formule",
+                "Hassan",
+                "Physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule du gain à partir de l'amplification",
+                "20 * log(A) (A = Amplification)"
+            ],
+            "guid": "K$FEy5E4ks",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Amplification",
+                "Hassan",
+                "Physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule de l'amplification à partir du gain",
+                "10^(G/20) (G = Gain)"
+            ],
+            "guid": "w937Rg,bhh",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Amplification",
+                "Gain_en_tension",
+                "Hassan",
+                "Physique",
+                "Théo::De::queiroz"
             ]
         }
     ],
