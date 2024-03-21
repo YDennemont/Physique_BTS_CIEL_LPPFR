@@ -88,7 +88,6 @@
         "paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg",
         "paste-6d9c5df223376ee0d61458b9a7005a6bd261c79f.jpg",
         "paste-75eac071035c2ce258ae94fa97491b4afe1bda7f.jpg",
-        "paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg",
         "paste-83c29af86247bc4107f83a0d26fcb617015ef962.jpg",
         "paste-8cb7dcc5e5ecae8a0ca509ec8642351f632ca24a.jpg",
         "paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg",
@@ -786,73 +785,6 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Gadugi",
-                    "id": null,
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Okaso Okaso",
-                    "id": null,
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
             "crowdanki_uuid": "85019b26-86a6-11ee-956c-9408536e8ea2",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -1394,101 +1326,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Qu'est ce que la valeur efficace et comment la calculer ?",
-                "La valeur efficace est la valeur continue qui possède la même énergie<br>que le signal.<br>\\[Veff = A / √2\\]<br>"
-            ],
-            "guid": "J[nN2A)_]K",
-            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
-            "tags": [
-                "1er::année",
-                "1STS",
-                "DEURVEILLER",
-                "PropriétéTemporelle",
-                "valeur::efficace"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la formule de la valeur efficace pour un sinus ?",
-                "<img src=\"paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg\">"
-            ],
-            "guid": "u0Cix/A~w{",
-            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
-            "tags": [
-                "Sinus",
-                "Théo::DQ",
-                "valeur::efficace"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quellle formule utiliser la valeur moyenne d'un signal ?",
-                "&lt;x&gt; = Xmax + Xmin/2"
-            ],
-            "guid": "jL$OA~8rQ|",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "signal"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la formule pour trouver la valeur efficace d'une tension ou d'un courant ?",
-                "<img src=\"paste-80355a6eb685ba8a958b14799e166ac420bf4780.jpg\">"
-            ],
-            "guid": "B{RG+OOgWU",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "signal"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que l'incertitude de type A ?",
-                "&nbsp;L'incertitude de Type A est&nbsp; calculée à partir d'une série de mesures&nbsp; de la meme grandeurs physique (effectuées dans les mêmes conditions)."
-            ],
-            "guid": "s|B!}>Mlib",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce que l'incertitude de type B ?",
-                "L'incertitude de type B permet de calculer une mesure unique et elle doit etre réévalués à chaque fois qu'un paramètre change."
-            ],
-            "guid": "uWP?xk)bXH",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Quelle est la formule de la Tolérance du type A ?",
-                "a/<span style=\"background-color: rgb(255, 255, 255);\">√3</span>"
-            ],
-            "guid": "nu)5~#mc0v",
-            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
-            "tags": [
-                "Hassan",
-                "incertitude"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Test1",
                 "HéHéBOIIIII"
             ],
@@ -1539,7 +1376,7 @@
                 "bts1",
                 "eléctricité",
                 "Laborde",
-                "Physique",
+                "physique",
                 "Rudolph"
             ]
         },
@@ -1556,7 +1393,7 @@
                 "ampl",
                 "bts1",
                 "Laborde",
-                "Physique",
+                "physique",
                 "Rudolph"
             ]
         },
@@ -1573,9 +1410,39 @@
                 "bts1",
                 "fourrier",
                 "Laborde",
-                "Physique",
+                "physique",
                 "Rudolph",
                 "synthé"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que la valeur efficace et comment la calculer ?",
+                "La valeur efficace est la valeur continue qui possède la même énergie<br>que le signal.<br>\\[Veff = A / √2\\]<br>"
+            ],
+            "guid": "J[nN2A)_]K",
+            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "valeur::efficace"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule de la valeur efficace pour un sinus ?",
+                "<img src=\"paste-6a5102b880672c2d7325dbfb379f0d38cc475b26.jpg\">"
+            ],
+            "guid": "u0Cix/A~w{",
+            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "tags": [
+                "Sinus",
+                "Théo::DQ",
+                "valeur::efficace"
             ]
         },
         {
@@ -1590,7 +1457,7 @@
                 "1er::année",
                 "Amplification",
                 "DEURVEILLER",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1698,7 +1565,7 @@
                 "Chapitre_Amplication",
                 "IR",
                 "marel",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1715,7 +1582,7 @@
                 "Gain_en_tension",
                 "IR",
                 "marel",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1732,7 +1599,7 @@
                 "Chapitre_Amplication",
                 "IR",
                 "marel",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1749,7 +1616,7 @@
                 "Gain_en_courant",
                 "IR",
                 "marel",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1766,7 +1633,7 @@
                 "Chapitre_Amplication",
                 "IR",
                 "marel",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1783,7 +1650,7 @@
                 "Gain_en_puissance",
                 "IR",
                 "marel",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1796,7 +1663,7 @@
             "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "tags": [
                 "loi_electriques",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1809,7 +1676,7 @@
             "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
             "tags": [
                 "loi_electriques",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1912,7 +1779,7 @@
                 "bts",
                 "Dorian",
                 "incertitude",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1927,7 +1794,7 @@
                 "bts1",
                 "Dorian",
                 "incertitude",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -1942,7 +1809,7 @@
                 "bts1",
                 "Dorian",
                 "incertitude",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -2101,7 +1968,7 @@
                 "bts1",
                 "Dorian",
                 "incertitude",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -2117,7 +1984,7 @@
                 "bts1",
                 "Dorian",
                 "incertitude",
-                "Physique"
+                "physique"
             ]
         },
         {
@@ -2133,90 +2000,6 @@
                 "bts1",
                 "Dorian",
                 "incertitude"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Qu'est ce qu'une ALI ?",
-                "C'est un Amplificateur Linéaire Intégré"
-            ],
-            "guid": "hDxwh0W)B%",
-            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
-            "tags": [
-                "1STS",
-                "ali",
-                "Amplification",
-                "Hassan",
-                "Physique",
-                "Théo::De::queiroz"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "A quoi sert une ALI ?",
-                "Il amplifie la différence de potentiel entre ses deux entrées appelées entrée non inverseuse ⊕ et entrée inverseuse ⊖."
-            ],
-            "guid": "hYRGB:aEF]",
-            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
-            "tags": [
-                "1STS",
-                "ali",
-                "Amplification",
-                "Hassan",
-                "Physique",
-                "Théo::De::queiroz"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule de l'amplification ?",
-                "Vs/Ve"
-            ],
-            "guid": "HD1T|!M5m(",
-            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
-            "tags": [
-                "1STS",
-                "Amplification",
-                "formule",
-                "Hassan",
-                "Physique",
-                "Théo::De::queiroz"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule du gain à partir de l'amplification",
-                "20 * log(A) (A = Amplification)"
-            ],
-            "guid": "K$FEy5E4ks",
-            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
-            "tags": [
-                "1STS",
-                "Amplification",
-                "Hassan",
-                "Physique",
-                "Théo::De::queiroz"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Donner la formule de l'amplification à partir du gain",
-                "10^(G/20) (G = Gain)"
-            ],
-            "guid": "w937Rg,bhh",
-            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
-            "tags": [
-                "1STS",
-                "Amplification",
-                "Gain_en_tension",
-                "Hassan",
-                "Physique",
-                "Théo::De::queiroz"
             ]
         }
     ],
