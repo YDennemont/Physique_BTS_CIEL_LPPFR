@@ -13,6 +13,7 @@
             "desiredRetention": 0.9,
             "dyn": false,
             "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -44,6 +45,7 @@
             "newMix": 0,
             "newPerDayMinimum": 0,
             "newSortOrder": 0,
+            "questionAction": 0,
             "replayq": true,
             "rev": {
                 "bury": false,
@@ -74,6 +76,7 @@
         "PasseBas.png",
         "SignalAnalogique.png",
         "SignalNumerique.png",
+        "antenne_isotrope.png",
         "echantillonnage.png",
         "loi des noueds.PNG",
         "passe-haut.png",
@@ -93,6 +96,73 @@
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
+            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Gadugi",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Okaso Okaso",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique++++++++-baa87",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
@@ -230,73 +300,6 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
-            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Gadugi",
-                    "id": null,
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Okaso Okaso",
-                    "id": null,
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique++++++++-baa87",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
-        {
-            "__type__": "NoteModel",
             "crowdanki_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
             "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
             "flds": [
@@ -334,7 +337,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++",
+            "name": "Basique++++-53a93",
             "originalStockKind": 1,
             "req": [
                 [
@@ -428,9 +431,91 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Gadugi",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Okaso Okaso",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
+                "i1+i3+i4=i2+i5"
+            ],
+            "guid": "i>k,013~-A",
+            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
+            "tags": [
+                "electricity",
+                "Hassan",
+                "loi-électrique",
+                "électricité"
+            ]
+        },
         {
             "__type__": "Note",
             "fields": [
@@ -533,21 +618,6 @@
                 "valeur",
                 "valeur::moyenne",
                 "VocabulaireGénérale"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
-                "i1+i3+i4=i2+i5"
-            ],
-            "guid": "i>k,013~-A",
-            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
-            "tags": [
-                "electricity",
-                "Hassan",
-                "loi-électrique",
-                "électricité"
             ]
         },
         {
@@ -746,7 +816,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -765,7 +835,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -784,7 +854,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -803,7 +873,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -822,7 +892,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -841,7 +911,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -860,7 +930,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -879,7 +949,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -898,7 +968,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -917,7 +987,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -936,7 +1006,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "sinus"
+                "Sinus"
             ]
         },
         {
@@ -951,7 +1021,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -969,7 +1039,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -987,7 +1057,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1005,7 +1075,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1023,7 +1093,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1041,7 +1111,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1059,7 +1129,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1077,7 +1147,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1095,7 +1165,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1113,7 +1183,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "ir",
+                "IR",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1134,6 +1204,41 @@
                 "Gain",
                 "Système",
                 "Traitement::du::signal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une antenne ?",
+                "Une antenne est un dispositif réversible permettant de rayonner (émetteur) ou de capter (récepteur) des ondes radio (OEM)"
+            ],
+            "guid": "c-|WZ9)w`Q",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "2STS",
+                "antenne",
+                "bts2",
+                "definition",
+                "Ligne_de_transmission",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment appelle t-on ce type d'antenne ?<br><img src=\"antenne_isotrope.png\">",
+                "Antenne isotrope"
+            ],
+            "guid": "HpLrKvkTgs",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "2024-2025",
+                "2STS",
+                "antenne",
+                "bts2",
+                "definition",
+                "Ligne_de_transmission",
+                "Théo::De::queiroz"
             ]
         }
     ],
