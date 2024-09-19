@@ -13,6 +13,7 @@
             "desiredRetention": 0.9,
             "dyn": false,
             "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
             "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
@@ -44,6 +45,7 @@
             "newMix": 0,
             "newPerDayMinimum": 0,
             "newSortOrder": 0,
+            "questionAction": 0,
             "replayq": true,
             "rev": {
                 "bury": false,
@@ -72,8 +74,10 @@
         "CAN.png",
         "CNA.png",
         "PasseBas.png",
+        "Req_Serie.png",
         "SignalAnalogique.png",
         "SignalNumerique.png",
+        "antenne_isotrope.png",
         "echantillonnage.png",
         "loi des noueds.PNG",
         "passe-haut.png",
@@ -87,12 +91,80 @@
         "pulsation.png",
         "repliement_1_repliement.jpg",
         "sinusoidale.png",
+        "symbole_resistance.jpg",
         "trigo.png"
     ],
     "name": "Physique_BTS_CIEL",
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "196cc9b9-70f5-11ef-afa9-db197b51a246",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -669363699964820696,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 6541916737853802347,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 1009357801145405598,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
@@ -334,7 +406,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++",
+            "name": "Basique++++-53a93",
             "originalStockKind": 1,
             "req": [
                 [
@@ -428,9 +500,86 @@
                 }
             ],
             "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Gadugi",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Okaso Okaso",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-0f506",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule de la résistance équivalente ?&nbsp;<br><img src=\"symbole_resistance.jpg\">&nbsp;",
+                "<img src=\"Req_Serie.png\">"
+            ],
+            "guid": "o#`I%Qwfmg",
+            "note_model_uuid": "196cc9b9-70f5-11ef-afa9-db197b51a246",
+            "tags": []
+        },
         {
             "__type__": "Note",
             "fields": [
@@ -1134,6 +1283,41 @@
                 "Gain",
                 "Système",
                 "Traitement::du::signal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce qu'une antenne ?",
+                "Une antenne est un dispositif réversible permettant de rayonner (émetteur) ou de capter (récepteur) des ondes radio (OEM)"
+            ],
+            "guid": "c-|WZ9)w`Q",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "2STS",
+                "antenne",
+                "bts2",
+                "definition",
+                "Ligne_de_transmission",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment appelle t-on ce type d'antenne ?<br><img src=\"antenne_isotrope.png\">",
+                "Antenne isotrope"
+            ],
+            "guid": "HpLrKvkTgs",
+            "note_model_uuid": "d7771b04-53b4-11ee-ba4f-a4b1c1f5c4cb",
+            "tags": [
+                "2024-2025",
+                "2STS",
+                "antenne",
+                "bts2",
+                "definition",
+                "Ligne_de_transmission",
+                "Théo::De::queiroz"
             ]
         }
     ],
