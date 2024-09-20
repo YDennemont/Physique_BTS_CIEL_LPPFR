@@ -72,6 +72,7 @@
         "CAN.png",
         "CNA.png",
         "PasseBas.png",
+
         "Rc.png",
         "SignalAnalogique.png",
         "SignalNumerique.png",
@@ -86,6 +87,8 @@
         "paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg",
         "paste-993efc4771e6f187bea8bc0cc6f2d01518684b3b.jpg",
         "paste-aacca4fbbe3c824401803c15570584a80140872c.jpg",
+        "paste-b0308bcdc4992ff9729ba890942090118f26e4b6.jpg",
+        "paste-d6123f71e8fb817544157854518871e750ec8aa0.jpg",
         "paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg",
         "pulsation.png",
         "repliement_1_repliement.jpg",
@@ -338,7 +341,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique++++-c2668",
+            "name": "Basique++++",
             "originalStockKind": 1,
             "req": [
                 [
@@ -1143,6 +1146,26 @@
         {
             "__type__": "Note",
             "fields": [
+
+                "Comment calculer la longueur d'onde(",
+                "Pour calculer la longueur d'onde:<br><br><span class=\"BxUVEf ILfuVd\" lang=\"fr\"><span class=\"hgKElc\"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;λ= c/f&nbsp;<br><br>avec c= célérité<br>et&nbsp; &nbsp; &nbsp; T= Périodicité temporelle&nbsp;<br></b></span></span><br>Le résultat sera en mètre<br><br>"
+            ],
+            "guid": "v8oM:fl$R*",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "2024-2025",
+                "2STS",
+                "BTS2",
+                "CORRE",
+                "Ligne::de::transmission"    ]
+        },
+{
+            "__type__": "Note",
+            "fields": [
+
+                "Comment calculer la longueur d'onde(",
+                "Pour calculer la longueur d'onde:<br><br><span class=\"BxUVEf ILfuVd\" lang=\"fr\"><span class=\"hgKElc\"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;λ= c/f&nbsp;<br><br>avec c= célérité<br>et&nbsp; &nbsp; &nbsp; T= Périodicité temporelle&nbsp;<br></b></span></span><br>Le résultat sera en mètre<br><br>"
+            ],
                 "A quelle type de circuit correspond ce chronogramme mesuré ?<br><img src=\"chronograme circruit ouvert.png\">",
                 "Circuit ouvert<br><img src=\"infini.png\">"
             ],
@@ -1157,11 +1180,97 @@
                 "Lignes::en::regime::impulsionnel",
                 "resistance::en::fin::de::ligne",
                 "sts2"
+
             ]
         },
         {
             "__type__": "Note",
             "fields": [
+
+                "",
+                ""
+            ],
+            "guid": "IX[Pq+N>29",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "2024-2025",
+                "2STS",
+                "BTS2",
+                "CORRE",
+                "Ligne::de::transmission"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment calculer la longueur vitesse de propagation?",
+                "Il faut utliser cette formule:<br><br><img src=\"paste-497db6ef182768ae510fb892bd420ebe397ce7ef.jpg\"><br><br>Le résultat sera en<b> m/s</b>"
+            ],
+            "guid": "j<l^oI71.4",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "2STS",
+                "BARGOIN",
+                "BTS2",
+                "CORRE",
+                "Ligne::de::transmission",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment calculer la longueur d'onde(<b>λ)?</b>",
+                "Il faut utiliser cette formule :<br><br>&nbsp;<b>λ = c / f&nbsp;<br><br>avec c: la célérité<br>et&nbsp; &nbsp; &nbsp; f: la fréquence</b>&nbsp;<br><br><br>Le résultat sera en mètre."
+            ],
+            "guid": "lwN7rzP(t6",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "2STS",
+                "BARGOIN",
+                "BTS2",
+                "CORRE",
+                "Ligne::de::transmission",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment calcule t'on le<b> ROS&nbsp;</b>?",
+                "Il faut utliser cette formule&nbsp;<br><br><img src=\"paste-b0308bcdc4992ff9729ba890942090118f26e4b6.jpg\"><br><br><br>(Pour calculer&nbsp;ρ voir carte coefficient de réflexion)"
+            ],
+            "guid": "NdhE<?v_6K",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "2STS",
+                "BARGOIN",
+                "BTS2",
+                "CORRE",
+                "Ligne::de::transmission",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule du coefficient de réflexion (en bout de ligne)",
+                "Voici la formule&nbsp;<br><br><img src=\"paste-d6123f71e8fb817544157854518871e750ec8aa0.jpg\"><br><br>Rc: est la résistance caractérisque"
+            ],
+            "guid": "jzs7$/D[(/",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "2STS",
+                "BARGOIN",
+                "BTS2",
+                "CORRE",
+                "Ligne::de::transmission",
+                "physique"    ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+
                 "A quel état correspond ce chronogrammes mesuré ?<br><img src=\"resistance adapté.png\">",
                 "<img src=\"Rc.png\"><br>Résistance adaptée"
             ],
@@ -1176,6 +1285,7 @@
                 "resistance::adaptée",
                 "resistance::en::fin::de::ligne",
                 "sts2"
+
             ]
         }
     ],
