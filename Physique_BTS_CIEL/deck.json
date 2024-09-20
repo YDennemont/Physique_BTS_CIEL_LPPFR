@@ -72,13 +72,16 @@
         "CAN.png",
         "CNA.png",
         "PasseBas.png",
+
+        "Rc.png",
         "SignalAnalogique.png",
         "SignalNumerique.png",
+        "chronograme circruit ouvert.png",
         "echantillonnage.png",
+        "infini.png",
         "loi des noueds.PNG",
         "passe-haut.png",
         "paste-113d8a56523a8a7c79a6f2baae4cadb4e4f388ed.jpg",
-        "paste-497db6ef182768ae510fb892bd420ebe397ce7ef.jpg",
         "paste-5b5e555a14a8fa64aeaf6ccad0530fe3568f314a.jpg",
         "paste-8cb7dcc5e5ecae8a0ca509ec8642351f632ca24a.jpg",
         "paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg",
@@ -89,6 +92,7 @@
         "paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg",
         "pulsation.png",
         "repliement_1_repliement.jpg",
+        "resistance adapté.png",
         "sinusoidale.png",
         "trigo.png"
     ],
@@ -1142,6 +1146,7 @@
         {
             "__type__": "Note",
             "fields": [
+
                 "Comment calculer la longueur d'onde(",
                 "Pour calculer la longueur d'onde:<br><br><span class=\"BxUVEf ILfuVd\" lang=\"fr\"><span class=\"hgKElc\"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;λ= c/f&nbsp;<br><br>avec c= célérité<br>et&nbsp; &nbsp; &nbsp; T= Périodicité temporelle&nbsp;<br></b></span></span><br>Le résultat sera en mètre<br><br>"
             ],
@@ -1152,12 +1157,36 @@
                 "2STS",
                 "BTS2",
                 "CORRE",
-                "Ligne::de::transmission"
+                "Ligne::de::transmission"    ]
+        },
+{
+            "__type__": "Note",
+            "fields": [
+
+                "Comment calculer la longueur d'onde(",
+                "Pour calculer la longueur d'onde:<br><br><span class=\"BxUVEf ILfuVd\" lang=\"fr\"><span class=\"hgKElc\"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;λ= c/f&nbsp;<br><br>avec c= célérité<br>et&nbsp; &nbsp; &nbsp; T= Périodicité temporelle&nbsp;<br></b></span></span><br>Le résultat sera en mètre<br><br>"
+            ],
+                "A quelle type de circuit correspond ce chronogramme mesuré ?<br><img src=\"chronograme circruit ouvert.png\">",
+                "Circuit ouvert<br><img src=\"infini.png\">"
+            ],
+            "guid": "KykLu:B_Me",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "2024-2025",
+                "2sts",
+                "bts2",
+                "circuit::ouvert",
+                "DEURVEILLER",
+                "Lignes::en::regime::impulsionnel",
+                "resistance::en::fin::de::ligne",
+                "sts2"
+
             ]
         },
         {
             "__type__": "Note",
             "fields": [
+
                 "",
                 ""
             ],
@@ -1236,7 +1265,27 @@
                 "BTS2",
                 "CORRE",
                 "Ligne::de::transmission",
-                "physique"
+                "physique"    ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+
+                "A quel état correspond ce chronogrammes mesuré ?<br><img src=\"resistance adapté.png\">",
+                "<img src=\"Rc.png\"><br>Résistance adaptée"
+            ],
+            "guid": "xl+J1TG)zw",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "2024-2025",
+                "2sts",
+                "bts2",
+                "DEURVEILLER",
+                "Lignes::en::regime::impulsionnel",
+                "resistance::adaptée",
+                "resistance::en::fin::de::ligne",
+                "sts2"
+
             ]
         }
     ],

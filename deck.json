@@ -78,6 +78,7 @@
         "SignalNumerique.png",
         "antenne_isotrope.png",
         "echantillonnage.png",
+        "latex-a03f26f43d2f132ed7fd18fe25908704c11be01f.png",
         "loi des noueds.PNG",
         "passe-haut.png",
         "paste-113d8a56523a8a7c79a6f2baae4cadb4e4f388ed.jpg",
@@ -96,73 +97,6 @@
     "newLimit": null,
     "newLimitToday": null,
     "note_models": [
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
-            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Gadugi",
-                    "id": null,
-                    "name": "Recto",
-                    "ord": 0,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "excludeFromSearch": false,
-                    "font": "Okaso Okaso",
-                    "id": null,
-                    "name": "Verso",
-                    "ord": 1,
-                    "plainText": false,
-                    "preventDeletion": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false,
-                    "tag": null
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basique++++++++-baa87",
-            "originalStockKind": 1,
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "id": null,
-                    "name": "Carte 1",
-                    "ord": 0,
-                    "qfmt": "{{Recto}}"
-                }
-            ],
-            "type": 0
-        },
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
@@ -271,6 +205,73 @@
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
             "name": "Basique-c09a7",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
+            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Gadugi",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Okaso Okaso",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique++++++++-baa87",
             "originalStockKind": 1,
             "req": [
                 [
@@ -471,7 +472,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Basique",
+            "name": "Basique-7d439",
             "originalStockKind": 1,
             "req": [
                 [
@@ -501,21 +502,6 @@
         }
     ],
     "notes": [
-        {
-            "__type__": "Note",
-            "fields": [
-                "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
-                "i1+i3+i4=i2+i5"
-            ],
-            "guid": "i>k,013~-A",
-            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
-            "tags": [
-                "electricity",
-                "Hassan",
-                "loi-électrique",
-                "électricité"
-            ]
-        },
         {
             "__type__": "Note",
             "fields": [
@@ -618,6 +604,21 @@
                 "valeur",
                 "valeur::moyenne",
                 "VocabulaireGénérale"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
+                "i1+i3+i4=i2+i5"
+            ],
+            "guid": "i>k,013~-A",
+            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
+            "tags": [
+                "electricity",
+                "Hassan",
+                "loi-électrique",
+                "électricité"
             ]
         },
         {
@@ -816,7 +817,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -835,7 +836,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -854,7 +855,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -873,7 +874,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -892,7 +893,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -911,7 +912,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -930,7 +931,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -949,7 +950,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -968,7 +969,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -987,7 +988,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -1006,7 +1007,7 @@
                 "marel",
                 "quantum",
                 "signaux",
-                "Sinus"
+                "sinus"
             ]
         },
         {
@@ -1021,7 +1022,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1039,7 +1040,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1057,7 +1058,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1075,7 +1076,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1093,7 +1094,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1111,7 +1112,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1129,7 +1130,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1147,7 +1148,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1165,7 +1166,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1183,7 +1184,7 @@
                 "Analogique",
                 "ARMOUËT",
                 "bts1",
-                "IR",
+                "ir",
                 "Numerique",
                 "signaux",
                 "Thenor"
@@ -1205,6 +1206,16 @@
                 "Système",
                 "Traitement::du::signal"
             ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Somme incertitude",
+                "[latex]<span style=\"font-weight: bold;\">\\sqrt</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">\\left</span> <span style=\"font-weight: bold;\">(</span> U<span style=\"font-weight: bold;\">1</span> <span style=\"font-weight: bold;\">\\right</span> <span style=\"font-weight: bold;\">)</span><span style=\"font-weight: bold;\">^</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">2</span><span style=\"font-weight: bold;\">}</span> <span style=\"font-weight: bold;\">+</span> <span style=\"font-weight: bold;\">\\left</span> <span style=\"font-weight: bold;\">(</span> U<span style=\"font-weight: bold;\">2</span> <span style=\"font-weight: bold;\">\\right</span> <span style=\"font-weight: bold;\">)</span><span style=\"font-weight: bold;\">^</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">2</span><span style=\"font-weight: bold;\">}</span> <span style=\"font-weight: bold;\">+</span> <span style=\"font-weight: bold;\">\\left</span> <span style=\"font-weight: bold;\">(</span> U<span style=\"font-weight: bold;\">3</span> <span style=\"font-weight: bold;\">\\right</span> <span style=\"font-weight: bold;\">)</span><span style=\"font-weight: bold;\">^</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">2</span><span style=\"font-weight: bold;\">}</span><span style=\"font-weight: bold;\">}</span>[/latex]"
+            ],
+            "guid": "O^20(yHZ7~",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": []
         },
         {
             "__type__": "Note",
