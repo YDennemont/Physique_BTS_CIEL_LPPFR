@@ -1,0 +1,1184 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "12be7950-edb8-11ee-a6de-b42e997ed9a2",
+    "deck_config_uuid": "12bef307-edb8-11ee-8765-b42e997ed9a2",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "12bef307-edb8-11ee-8765-b42e997ed9a2",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "AOP-suiveur.png",
+        "CAN.png",
+        "CNA.png",
+        "PasseBas.png",
+        "Rc.png",
+        "SignalAnalogique.png",
+        "SignalNumerique.png",
+        "chronograme circruit ouvert.png",
+        "echantillonnage.png",
+        "infini.png",
+        "loi des noueds.PNG",
+        "passe-haut.png",
+        "paste-113d8a56523a8a7c79a6f2baae4cadb4e4f388ed.jpg",
+        "paste-5b5e555a14a8fa64aeaf6ccad0530fe3568f314a.jpg",
+        "paste-8cb7dcc5e5ecae8a0ca509ec8642351f632ca24a.jpg",
+        "paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg",
+        "paste-993efc4771e6f187bea8bc0cc6f2d01518684b3b.jpg",
+        "paste-aacca4fbbe3c824401803c15570584a80140872c.jpg",
+        "paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg",
+        "pulsation.png",
+        "repliement_1_repliement.jpg",
+        "resistance adapté.png",
+        "sinusoidale.png",
+        "trigo.png"
+    ],
+    "name": "Physique_BTS_CIEL",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
+            "css": ".card {\n    font-family: Okaso Okaso;\n    font-size: 17px;\n    text-align: center;\n    color: black;\n    background-color: yellowgreen;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Gadugi",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Okaso Okaso",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique++++++++-baa87",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique (saisissez la réponse)-e3be7",
+            "originalStockKind": 3,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{Recto}}\n\n<hr id=answer>\n\n{{type:Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}\n\n{{type:Verso}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-c09a7",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique++++-c2668",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Recto",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Verso",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique-a112a",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>Quelle est la formule pour appliquer la loi des noeuds ?<br>&nbsp;</b><img src=\"loi des noueds.PNG\">",
+                "i1+i3+i4=i2+i5"
+            ],
+            "guid": "i>k,013~-A",
+            "note_model_uuid": "9df277c2-696d-11ee-85c8-00d861748303",
+            "tags": [
+                "electricity",
+                "Hassan",
+                "loi-électrique",
+                "électricité"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce que la valeur efficace et comment la calculer pour un sinus?",
+                "La valeur efficace est la valeur continue qui possède la même énergie<br>que le signal. Pour un sinus:<br>\\[Veff = A / √2\\]<br>"
+            ],
+            "guid": "J[nN2A)_]K",
+            "note_model_uuid": "cbbb6351-6994-11ee-b345-38ca84c360c7",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "valeur::efficace"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est la formule pour calculer la fréquence d'un signal ?",
+                "Pour calculer le fréquence d'un signal il faut utiliser la formule :&nbsp;\\[f=1/T\\]T = La période en seconde (s)<br>F = La fréquence en Hertz (Hz)"
+            ],
+            "guid": "p_E_,h=i{e",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "Période::et::Fréquence"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle est l'écriture mathématique d'une grandeur sinusoïdale ?",
+                "Une grandeur sinusoïdale est représentée par :<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src=\"sinusoidale.png\"><br>Xm est l’amplitude<br>ωt + φ est la phase à l’instant t (en radian)<br>ω est la pulsation&nbsp;<img src=\"pulsation.png\">&nbsp;en rad.s<sup>-1</sup>&nbsp;est proportionnelle à la fréquence f"
+            ],
+            "guid": "n~EHPR$m:l",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "Caractéristiques",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "signaux::sinusoïdaux"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment se lit le cos θ et sin θ dans&nbsp;un cercle trigonométrique ?",
+                "Le cos θ se lit sur l’axe des abscisses et le sin θ sur l’axe des ordonnées lorsque le point se déplace sur le cercle unité<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src=\"trigo.png\" width=\"417\" style=\"\">"
+            ],
+            "guid": "Cf&XE8#T37",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "Cercle::trigonométrique",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "signaux::sinusoïdaux"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'une valeur crête à crête ?",
+                "<img src=\"paste-5b5e555a14a8fa64aeaf6ccad0530fe3568f314a.jpg\"><br>La valeur maximale notée&nbsp;<img src=\"paste-90c18de1c6f094768daac35261026bf7684e65c7.jpg\">&nbsp;moins la valeur minimale notée&nbsp;<img src=\"paste-f83386e314999e1f7c7c719fe4893260be5632e3.jpg\">. Elle correspond à l'étendue des valeurs prise par le signal."
+            ],
+            "guid": "G3{GFTk;p7",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "valeur",
+                "valeur::générale",
+                "VocabulaireGénérale"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Comment peut-on calculer la valeur moyenne ?",
+                "&nbsp;La valeur moyenne ( ou continu) peut être calculé :<br><br>Pour un signal symetrique :&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src=\"paste-113d8a56523a8a7c79a6f2baae4cadb4e4f388ed.jpg\"><br>Pour un signal \"simple\" :<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src=\"paste-8cb7dcc5e5ecae8a0ca509ec8642351f632ca24a.jpg\">&nbsp;<br>A est la contribution des aires sous la courbe<br>T est la période"
+            ],
+            "guid": "szLuqd],J]",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "1STS",
+                "bts1",
+                "continu",
+                "DEURVEILLER",
+                "PropriétéTemporelle",
+                "valeur",
+                "valeur::moyenne",
+                "VocabulaireGénérale"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Que veut dire ALI ?",
+                "C'est un Amplificateur Linéaire Intégré"
+            ],
+            "guid": "hDxwh0W)B%",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "ali",
+                "Amplification",
+                "Hassan",
+                "physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A quoi sert un ALI ?",
+                "Il amplifie la différence de potentiel entre ses deux entrées appelées entrée non inverseuse ⊕ et entrée inverseuse ⊖."
+            ],
+            "guid": "hYRGB:aEF]",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "ali",
+                "Amplification",
+                "Hassan",
+                "physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule de l'amplification ?",
+                "Vs/Ve"
+            ],
+            "guid": "HD1T|!M5m(",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Amplification",
+                "formule",
+                "Hassan",
+                "physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule du gain G à partir de l'amplification A",
+                "G= 20 * log(A)&nbsp;"
+            ],
+            "guid": "K$FEy5E4ks",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Amplification",
+                "Hassan",
+                "physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Donner la formule de l'amplification Aà partir du gain G",
+                "A=10^(G/20)&nbsp;"
+            ],
+            "guid": "w937Rg,bhh",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Amplification",
+                "Gain_en_tension",
+                "Hassan",
+                "physique",
+                "Théo::De::queiroz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>A quoi sert l'amplification ?</b>",
+                "L'amplification permet d'augmenter l'amplitude d'un signal(electrique ou acoustique)."
+            ],
+            "guid": "Lpi@M^]kPJ",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "Amplification",
+                "bts1",
+                "Hassan",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est-ce que la bande passante ?",
+                "La bande passante est la bande de fréquence où un système fonctionne 'correctement'&nbsp;"
+            ],
+            "guid": "BH`10fv1i}",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Chapitre_Amplication",
+                "Hassan",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quel est ce montage ?<br><img src=\"AOP-suiveur.png\">",
+                "Il s'agit d'un montage d'un mongage inverseur. Cela permet de recopier la tension sans appeler de courant"
+            ],
+            "guid": "IC`_=2-=lU",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1STS",
+                "Chapitre_Amplication",
+                "Hassan",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><u>Calculer l'incertitude relative à partir d'une incertitude</u>&nbsp;Ex:&nbsp;</b>E = 2,48&nbsp;± 0,02 V ; 95%&nbsp;",
+                "<u>Formule&nbsp;</u>:&nbsp;<span style=\"color: rgb(255, 0, 0);\">p% = 100 * U(X) / x&nbsp;</span><br><u>Ex&nbsp;</u>:&nbsp;<br>E = 2,48&nbsp;± 0,02 V ; 95%&nbsp;<br>&nbsp; &nbsp; &nbsp; p% = 100 * 0,02/2,48 = 0,8%"
+            ],
+            "guid": "I3=/R!xF*7",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Kylan",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Définition : Incertitude de type A</b></u>",
+                "Elle est calculée à partir d'une&nbsp;<span style=\"color: rgb(255, 0, 0);\">série de mesures</span>&nbsp;de la même grandeur physique. (La valeur vraie reste identique.)"
+            ],
+            "guid": "brC$V.O!]e",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Kylan",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u><b>Définition : Incertitude de type B</b></u>",
+                "Une incertitude est de type B si elle concerne le cas d'une&nbsp;<span style=\"color: rgb(255, 0, 0);\">mesure unique</span>&nbsp;de la grandeur physique. Elle dépend notamment des données constructeur sur l'appareil de mesure.<br><u>A chaque paramètre changé, elle doit être réévaluée.</u>"
+            ],
+            "guid": "Gd$fhKBbUQ",
+            "note_model_uuid": "760c8e9b-9014-11ee-bd68-f36ddcbb14ba",
+            "tags": [
+                "1er::année",
+                "bts1",
+                "Dorian",
+                "incertitude",
+                "Kylan",
+                "physique"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Que représente le spectre d'un signal?</span></b>",
+                "<b><div><span style=\"font-weight: 400;\">Le spectre d'un signal représente la répartition de ses composantes de fréquence (composantes sinusoidales)</span></div></b><br>"
+            ],
+            "guid": "EN,L`D)~wv",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Que veut dire CAN&nbsp;</span></b>",
+                "<b><span style=\"font-weight: 400;\">le CAN est le Convertisseur Analogique vers Numérique</span><span style=\"font-weight: 400;\"><br></span></b>"
+            ],
+            "guid": "AKC:Ij39=R",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Que veut dire CNA</span></b>",
+                "<b><span style=\"font-weight: 400;\">le CNA est le Convertisseur Numérique vers Analogique</span></b>"
+            ],
+            "guid": "E9^(Sy:R!(",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Quelle est la formule de la condition de Shannon</span></b>",
+                "<img src=\"paste-993efc4771e6f187bea8bc0cc6f2d01518684b3b.jpg\">"
+            ],
+            "guid": "z>fbM<Jjd",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Comment décririez-vous le spectre d'un sinus (domaine fréquentiel) ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Le spectre d'un sinus est un spectre de raies composé d'un seul pic</span></b>"
+            ],
+            "guid": "z=I{7{n%JA",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Quels composants trouvez-vous dans le spectre d'un signal périodique ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Des composantes de fréquence à des multiples entiers de la fréquence du signal périodique</span></b>"
+            ],
+            "guid": "HXH_V<</0:",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Que pouvez-vous dire sur l'évolution courante des amplitudes des composantes du spectre d'un sinus ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Les amplitudes des composantes décroissent souvent avec l'augmentation de la fréquence.</span></b>"
+            ],
+            "guid": "O~owvL:|Tk",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Comment évolue le spectre d'un sinus en fonction de sa fréquence ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Le spectre d'un sinus se déplace vers des fréquences plus élevées lorsque la fréquence du sinus augmente.</span></b>"
+            ],
+            "guid": "uyK+va8$sm",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Quelle relation entre le spectre d'un sinus et sa période ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Le spectre d'un sinus comporte des composantes à des fréquences inverses de sa période.</span></b>"
+            ],
+            "guid": "p21TFjka!J",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Comment la fréquence d'un signal périodique affecte-t-elle son spectre ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Une augmentation de la fréquence du sinus entraîne un déplacement des pics du spectre vers des fréquences plus élevées.</span></b>"
+            ],
+            "guid": "n<Sn53_/^7",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b><span style=\"font-weight: 400;\">Comment le spectre d'un sinus est-il utilisé en traitement du signal ?</span></b>",
+                "<b><span style=\"font-weight: 400;\">Le spectre d'un sinus est utilisé pour analyser et synthétiser des signaux, ainsi que pour filtrer des fréquences spécifiques.</span></b>"
+            ],
+            "guid": "fW#h1n,w`N",
+            "note_model_uuid": "9df277d1-696d-11ee-b2f8-00d861748303",
+            "tags": [
+                "bts1",
+                "electricity",
+                "fourrier",
+                "Laborde",
+                "marel",
+                "quantum",
+                "signaux",
+                "Sinus"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un signal&nbsp;analogique ?",
+                "<img src=\"SignalAnalogique.png\" style=\"float: right;\">Un signal analogique est un signal continu qui peut prendre une infinité de valeurs&nbsp;telles que les tensions électriques, les intensités lumineuses ou les pressions acoustiques.&nbsp;"
+            ],
+            "guid": "yUd>3jLM;T",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un signal numérique ?",
+                "<img src=\"SignalNumerique.png\" style=\"float: right;\">Un signal numérique est un signal qui est représenté par des valeurs \ndiscrètes ou des nombres finis, généralement sous forme binaire (0 et \n1). Ces valeurs sont utilisées pour représenter des quantités physiques \nou des informations."
+            ],
+            "guid": "pr`tM-7JQ4",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "De quoi est constituée la chaîne d'acquisition ?",
+                "Une chaîne d'acquisition est un convertisseur de signal analogique en un signal \nnumérique en passant par un filtre anti-repliement, un échantillonneur-bloqueur et un \nconvertisseur analogique-numérique (CAN)."
+            ],
+            "guid": "JR1AromiaJ",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "De quoi est constituée la chaîne de restitution ?",
+                "Une chaîne de restitution&nbsp;est un convertisseur de signal numérique&nbsp;en un signal analogique&nbsp;en passant par une conversion numérique-analogique (CNA) et d'un filtre de lissage"
+            ],
+            "guid": "u!/e_)GZ,4",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle la formule du quantum pour un CAN?",
+                "<div><img src=\"CAN.png\" style=\"float: right;\">La caractéristique de transfert d'un CAN est représentée par son quantum (q), sa valeur pleine échelle (Vpe), et le nombre de bits (n).</div>"
+            ],
+            "guid": "AGFfP`>IyQ",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelle la formule du quantum pour un CNA?",
+                "<img src=\"CNA.png\" style=\"float: right;\">La caractéristique de transfert d'un CNA est représentée par son quantum (q), sa valeur pleine échelle (Vpe), et le nombre de bits (n).&nbsp;"
+            ],
+            "guid": "wB`Cx<g7)}",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un echantillonnage bloqueur ?",
+                "<img src=\"echantillonnage.png\" style=\"float: right;\">Un échantillonneur-bloqueur est un circuit utilisé dans les systèmes de \ntraitement de signal pour maintenir un signal constant pendant la durée \nde l'échantillonnage afin de permettre une conversion précise en signal \nnumérique."
+            ],
+            "guid": ".;bo&#E6",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un&nbsp;repliement du spectre ?",
+                "Le repliement du spectre<img src=\"repliement_1_repliement.jpg\" style=\"float: right;\">&nbsp;se \nproduit lorsqu'un signal est échantillonné à une fréquence insuffisante,\n ce qui entraîne une distorsion ou une confusion des fréquences dans le \nspectre résultant."
+            ],
+            "guid": "Hb!@ROdmLl",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un passe-bas ?",
+                "<img src=\"PasseBas.png\" style=\"float: right;\">Un passe-bas est un type de filtre qui laisse passer les fréquences \ninférieures à une certaine fréquence de coupure tandis qu'il atténue les\n fréquences supérieures à cette fréquence."
+            ],
+            "guid": "J+vJc@BGgA",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qu'est ce qu'un passe-haut ?",
+                "<img src=\"passe-haut.png\" style=\"float: right;\">Un passe-haut est un type de filtre qui laisse passer les fréquences \nsupérieures à une certaine fréquence de coupure tout en atténuant les \nfréquences inférieures à cette fréquence."
+            ],
+            "guid": "th;/LGrgbG",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Analogique",
+                "ARMOUËT",
+                "bts1",
+                "IR",
+                "Numerique",
+                "signaux",
+                "Thenor"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quels sont les types de système et l'allure de leur gain en fonction de la fréquence?",
+                "Types de systèmes: Passe-bas, Passe-haut, Passe-bande ....<br><img src=\"paste-aacca4fbbe3c824401803c15570584a80140872c.jpg\">"
+            ],
+            "guid": "r>3lRy^o*o",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "Bode",
+                "bts1",
+                "Filtres",
+                "Gain",
+                "Système",
+                "Traitement::du::signal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A quelle type de circuit correspond ce chronogramme mesuré ?<br><img src=\"chronograme circruit ouvert.png\">",
+                "Circuit ouvert<br><img src=\"infini.png\">"
+            ],
+            "guid": "KykLu:B_Me",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "2024-2025",
+                "2sts",
+                "bts2",
+                "circuit::ouvert",
+                "DEURVEILLER",
+                "Lignes::en::regime::impulsionnel",
+                "resistance::en::fin::de::ligne",
+                "sts2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A quel état correspond ce chronogrammes mesuré ?<br><img src=\"resistance adapté.png\">",
+                "<img src=\"Rc.png\"><br>Résistance adaptée"
+            ],
+            "guid": "xl+J1TG)zw",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": [
+                "2024-2025",
+                "2sts",
+                "bts2",
+                "DEURVEILLER",
+                "Lignes::en::regime::impulsionnel",
+                "resistance::adaptée",
+                "resistance::en::fin::de::ligne",
+                "sts2"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

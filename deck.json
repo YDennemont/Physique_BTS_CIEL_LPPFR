@@ -79,6 +79,7 @@
         "SignalNumerique.png",
         "antenne_isotrope.png",
         "echantillonnage.png",
+        "latex-a03f26f43d2f132ed7fd18fe25908704c11be01f.png",
         "loi des noueds.PNG",
         "passe-haut.png",
         "paste-113d8a56523a8a7c79a6f2baae4cadb4e4f388ed.jpg",
@@ -540,7 +541,9 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
+
             "name": "Basique-0f506",
+
             "originalStockKind": 1,
             "req": [
                 [
@@ -1288,6 +1291,18 @@
         {
             "__type__": "Note",
             "fields": [
+
+                "Somme incertitude",
+                "[latex]<span style=\"font-weight: bold;\">\\sqrt</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">\\left</span> <span style=\"font-weight: bold;\">(</span> U<span style=\"font-weight: bold;\">1</span> <span style=\"font-weight: bold;\">\\right</span> <span style=\"font-weight: bold;\">)</span><span style=\"font-weight: bold;\">^</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">2</span><span style=\"font-weight: bold;\">}</span> <span style=\"font-weight: bold;\">+</span> <span style=\"font-weight: bold;\">\\left</span> <span style=\"font-weight: bold;\">(</span> U<span style=\"font-weight: bold;\">2</span> <span style=\"font-weight: bold;\">\\right</span> <span style=\"font-weight: bold;\">)</span><span style=\"font-weight: bold;\">^</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">2</span><span style=\"font-weight: bold;\">}</span> <span style=\"font-weight: bold;\">+</span> <span style=\"font-weight: bold;\">\\left</span> <span style=\"font-weight: bold;\">(</span> U<span style=\"font-weight: bold;\">3</span> <span style=\"font-weight: bold;\">\\right</span> <span style=\"font-weight: bold;\">)</span><span style=\"font-weight: bold;\">^</span><span style=\"font-weight: bold;\">{</span><span style=\"font-weight: bold;\">2</span><span style=\"font-weight: bold;\">}</span><span style=\"font-weight: bold;\">}</span>[/latex]"
+            ],
+            "guid": "O^20(yHZ7~",
+            "note_model_uuid": "4faa7693-9013-11ee-b03c-f63ca36cce40",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+
                 "Qu'est-ce qu'une antenne ?",
                 "Une antenne est un dispositif réversible permettant de rayonner (émetteur) ou de capter (récepteur) des ondes radio (OEM)"
             ],
